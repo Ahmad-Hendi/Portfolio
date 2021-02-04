@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Exo 2', sans-serif; */
+    font-family: 'Teko', sans-serif;
+}
+
+.container{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: darkgoldenrod; */
+}
+
+.container .hello{
+    background-color: darkblue;
+    height: 100vh;
+    color: #e5e5e5;
+    font-size: 19em;
+    text-align: center;
+    letter-spacing: -4px;
+    position: absolute;
+    top: 50%;    
+    left: 50%;    
+    transform: translate(-50%, -50%);
+    text-shadow:  3px 4px 0 #c5c5c5, 12px 8px;
+}
+
+
+.container .text-box{
+    background-color: crimson;
+    color: rgb(56, 56, 56);
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 7px;
+    position: absolute;
+    top: 30%;    
+    left: 50%;    
+    transform: translate(-50%, -50%);
+    display: flex;
+
+    
+}
+
+ 
+
+
+.container .text-box .typing{
+    /* background-color: red; */
+    margin-left: 10px;
+    position: relative;
+
+}
+
+
+
+.container .text-box .typing::after{
+    content: "";
+    position: absolute;
+    right: -1px;
+    top: 30%;
+    width: 1px;
+    height: 40%;
+    border-right: 3px solid blueviolet;
+    color: blueviolet;
+    animation: blink 0.5s infinite ease;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+ .me-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.container .me-box .myName{ 
+    color: blueviolet;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+} 
+
+
+    
+
+
+
