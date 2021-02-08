@@ -1,4 +1,5 @@
 
+alert('i am still working on my portfolio 👨🏻‍💻 !!! ')
 
 const texts = ["creative", "passionate", "talented"];
 let count = 0;

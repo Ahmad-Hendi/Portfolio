@@ -297,9 +297,10 @@ body{
     align-items: center;
 }
 .about-pages div> p{
+    text-align: center;
     width: 80%;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 29px;
+    line-height: 25px;
 
 }
 
@@ -477,6 +478,7 @@ display: flex;
     .img-slider{
       width: 600px;
       height: 327px;
+      
     }
   
     .img-slider .slide .info{
@@ -531,6 +533,8 @@ display: flex;
     .about-pages div>h2 {
         font-size: 30px;
     }
+
+    
   }
   
   @media (max-width: 620px){
@@ -591,6 +595,9 @@ display: flex;
     .about-pages div>h2 {
         font-size: 30px;
     }
+    .about-pages div>p {
+        font-size: 20px;
+    }
 
   }
   
@@ -645,8 +652,18 @@ display: flex;
     }
 
     .about-pages div>h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
+    .about-pages div>p {
+        font-size: 15px;
+    }
+    /* .about-title>h2 {
+      font-size: 250%;
+      color: #ba9ae3;
+      position: absolute;
+     
+     
+  } */
         
 
   }
