@@ -1,4 +1,4 @@
-console.log('test');
+
  
 new hoverEffect ({
     parent: document.querySelector('.img'),
