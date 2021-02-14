@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
     <!--cdn for hover effect start--> 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
     <!--cdn for hover effect end-->   
     
 
@@ -149,68 +150,7 @@
       </ul>
     </div>
     <div class="progressbar"></div>
-  <script>
-    $(document).ready(function() {
-      TweenMax.set(".project-preview", { width: 0 });
-
-      var tl = new TimelineLite();
-
-      $(document)
-        .on("mouseover", ".navigation-item", function(evt) {
-          tl = new TimelineLite();
-          tl.to($(".project-preview"), 1, {
-            width: "700px",
-            ease: Expo.easeInOut
-          });
-        })
-        .on("mouseout", ".navigation-item", function(evt) {
-          tl = new TimelineLite();
-          tl.to($(".project-preview"), 0.2, {
-            width: 0,
-            ease: Expo.easeInOut
-          });
-        });
-    });
-
-
-    $(".navigation-link-1").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/weatherapp.jpg)" });
-      });
-
-      $(".navigation-link-2").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/landingpage.jpg) " });
-      });
-
-      $(".navigation-link-3").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/impossible.jpg)" });
-      });
-
-      $(".navigation-link-4").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/Nextflix.jpg)" });
-      });
-
-      $(".navigation-link-5").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/ProductLandingPage.jpg)" });
-      });
-
-      $(".navigation-link-6").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/HousePricePrediction.jpg)" });
-      });
-
-      $(".navigation-link-7").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../images/ecommerce.jpg)" });
-      // });
-
-      // $(".navigation-link-8").hover(function() {
-      //   $(".project-preview").css({ "background-image": "url(../../images/bootstrap)" });
-      });
-
-   
-
   
-  </script>
-
-    <!-- project hover effect end -->
     
     
        
@@ -228,7 +168,7 @@
         
     <!--cdn for liquify effect start-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js" integrity="sha512-aqhdrigR8ePLi7IhiGrZz4APv1VktO5eCavRmavrNSk1Ut/s/WVlDwH94SeCqAiM0lm/s8mjtjaDhfevv2Zauw==" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script> -->
+    
     <script src="../public/js/hover.js"></script>
     <script src="../public/js/hoverScript.js"></script>
     <!--cdn for liquify effect end-->
@@ -243,5 +183,6 @@
 <script src="https://kit.fontawesome.com/0d2578b465.js" crossorigin="anonymous"></script> 
  <script src="../public/js/script.js"></script>  
     <script src="../public/js/slider.js"></script> 
+    <script src="../public/js/hoverEffect.js"></script>
 </body>
 </html>
