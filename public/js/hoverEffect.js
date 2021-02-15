@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
     $(".navigation-link-1").hover(function() {
-        $(".project-preview").css({ "background-image": "url(../../../images/weatherapp.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/weatherapp.jpg)" });
       });
 
       $(".navigation-link-2").hover(function() {
