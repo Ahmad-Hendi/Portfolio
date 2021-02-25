@@ -40,14 +40,15 @@ router.post('/', (req, res) => {
         service: 'gmail',
         host: 'smtp.gmail.com',
         port: process.env.PORT,
-        secure: false,
+        // secure: false,
         // tls: {
         //   rejectUnauthorized: false
         // },
         // requireTLS: true,
         auth: {
           user: process.env.EMAIL,
-          pass: process.env.EMAIL_PASS
+          pass: process.env.EMAIL_PASS,
+          accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x'
         },
         
       });
