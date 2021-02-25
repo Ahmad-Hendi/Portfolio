@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const expressLayouts = require('express-ejs-layouts');
 const chalk = require('chalk');
 const nodemailer = require("nodemailer");
+const cors = require('cors');
 require('dotenv').config(console.log( {path: path.join(__dirname, '/.env')}));
 
 
@@ -67,5 +68,6 @@ app.use('/public', express.static(path.join(__dirname, 'public')))
 app.use('/', require('./routes/aboutme'));
 app.use('/register' ,require('./routes/register'));
 app.use('/navigation' ,require('./routes/navigation'));
+app.use(cors())
 
 // app.listen(process.env.PORT || 3000 )

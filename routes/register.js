@@ -7,6 +7,7 @@ var smtpTransport = require('nodemailer-smtp-transport');
 const chalk = require('chalk');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
+const cors = require('cors');
 require('dotenv').config(console.log ({path: path.join(__dirname, '/.env')}));
 
 
@@ -40,10 +41,10 @@ router.post('/', (req, res) => {
         host: 'smtp.gmail.com',
         port: process.env.PORT,
         secure: false,
-        tls: {
-          rejectUnauthorized: false
-        },
-        requireTLS: true,
+        // tls: {
+        //   rejectUnauthorized: false
+        // },
+        // requireTLS: true,
         auth: {
           user: process.env.EMAIL,
           pass: process.env.EMAIL_PASS
