@@ -57,7 +57,7 @@ mongoose.connection.on('connected', (error) => {
 
 
 app.listen(port, () => {
-    console.log(chalk.cyan.bold(`Server Started on  ..... `));
+    console.log(chalk.cyan.bold(`Server Started on ${port} ..... `));
 })
 
 
