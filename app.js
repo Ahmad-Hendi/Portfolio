@@ -7,10 +7,10 @@ const expressLayouts = require('express-ejs-layouts');
 const chalk = require('chalk');
 const nodemailer = require("nodemailer");
 const cors = require('cors');
-require('dotenv').config(console.log( {path: path.join(__dirname, '/.env')}));
+require('dotenv').config({path: path.join(__dirname, '/.env')});
 
 
-console.log(chalk.yellow(process.env));
+
 
 
 

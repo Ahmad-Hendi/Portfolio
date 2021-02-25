@@ -8,7 +8,7 @@ const chalk = require('chalk');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const cors = require('cors');
-require('dotenv').config(console.log ({path: path.join(__dirname, '/.env')}));
+require('dotenv').config({path: path.join(__dirname, '/.env')});
 
 
 
@@ -48,7 +48,7 @@ router.post('/', (req, res) => {
         auth: {
           user: process.env.EMAIL,
           pass: process.env.EMAIL_PASS,
-          accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x'
+
         },
         
       });
