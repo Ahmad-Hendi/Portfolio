@@ -273,41 +273,13 @@ section .container-contact-me{
 }
 
 section .container-contact-me .user {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  align-items: center;
   display: flex;
-}
-
-section .container-contact-me .user .imgBx{
-  position: relative;
-  width: 50%;
-  height: 100%;
-  background: #ff0;
-  transition: 0.5s;
-}
-
-section .container-contact-me .user .imgBx img {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 section .container-contact-me .user .formBx {
-  position: relative;
-  width: 50%;
-  height: 100%;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  transition: 0.5s;
+  padding: 9%;
 }
 
 section .container-contact-me .user .formBx form h2 {
@@ -336,77 +308,46 @@ section .container-contact-me .user .formBx form input {
   letter-spacing: 1px;
   font-weight: 300;
 }
-
-section .container-contact-me .user .formBx form input [type="submit"] {
-  max-width: 100px;
-  background: #677eff;
-  color: #fff;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  transition: 0.5s;
-}
-
-section .container-contact-me .user .formBx form .signup {
+section .container-contact-me .user .formBx form textarea {
   position: relative;
-  margin-top: 20px;
-  font-size: 12px;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
   letter-spacing: 1px;
-  color: #555;    
-  text-transform: uppercase;
   font-weight: 300;
+  color: #ba9ae3;
 }
-
-section .container-contact-me .user .formBx form .signup a{
-
-  font-weight: 600;
-  font-size: 10px;
-  text-decoration: none;
-
-}
-
-/* .contact-me .container-contact-me.active .singupBx .formBx {
-  left: -50%;
-} */
-
-
-
-
-/* .contact-me .container-contact-me .singupBx .formBx   {
-  left: 0%;
-} 
-.contact-me .container-contact-me.active .singupBx .formBx {
-  left: 50;
-  
-}
-
-*/
- /* .contact-me .container-contact-me .singupBx .imgBx {
-  left: 50%;
+section .container-contact-me .user .formBx form button {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: rgb(109, 109, 109);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  cursor: pointer;
 }
 
 
- .contact-me .container-contact-me.active .singupBx .imgBx {
-  left: 0;
-}  */
 
 
 
- .contact-me .container-contact-me  .user  .formBx {
-  left: 50%;
-  
-}
-.contact-me .container-contact-me.active .user  .formBx {
-  left: 50%;
-  
-}
- .contact-me .container-contact-me .user .imgBx {
-  left: -50%;
-}
- .contact-me .container-contact-me.active .user .imgBx {
-  left: 0%;
-}
+
+
+
+
+
 
 
 
@@ -567,7 +508,7 @@ section .container-contact-me .user .formBx form .signup a{
         margin: 0px;
         text-align: center;
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         flex-direction: column;
         justify-content: center;
 
