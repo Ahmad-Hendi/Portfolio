@@ -23,31 +23,31 @@ $(document).ready(function() {
 
 
     $(".navigation-link-1").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/weatherapp.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/weatherapp.jpg)" });
       });
 
       $(".navigation-link-2").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/landingpage.jpg) " });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/landingpage.jpg) " });
       });
 
       $(".navigation-link-3").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/impossible.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/impossible.jpg)" });
       });
 
       $(".navigation-link-4").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/Nextflix.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/Nextflix.jpg)" });
       });
 
       $(".navigation-link-5").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/ProductLandingPage.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/ProductLandingPage.jpg)" });
       });
 
       $(".navigation-link-6").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/HousePricePrediction.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/HousePricePrediction.jpg)" });
       });
 
       $(".navigation-link-7").hover(function() {
-        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/images/ecommerce.jpg)" });
+        $(".project-preview").css({ "background-image": "url(https://ahmad-hendi.github.io/Portfolio/public/images/ecommerce.jpg)" });
       // });
 
       // $(".navigation-link-8").hover(function() {

@@ -7,7 +7,7 @@ var smtpTransport = require('nodemailer-smtp-transport');
 const chalk = require('chalk');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
-console.log(require('dotenv').config(console.log ({path: path.join(__dirname, '/.env')})));
+require('dotenv').config(console.log ({path: path.join(__dirname, '/.env')}));
 
 
 

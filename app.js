@@ -56,9 +56,9 @@ mongoose.connection.on('connected', (error) => {
 
 
 
-// app.listen(port, () => {
-//     console.log(chalk.cyan.bold(`Server Started on  ..... `));
-// })
+app.listen(port, () => {
+    console.log(chalk.cyan.bold(`Server Started on  ..... `));
+})
 
 
 app.use('/public', express.static(path.join(__dirname, 'public')))
@@ -68,4 +68,4 @@ app.use('/', require('./routes/aboutme'));
 app.use('/register' ,require('./routes/register'));
 app.use('/navigation' ,require('./routes/navigation'));
 
-app.listen(process.env.PORT || 3000 )
+// app.listen(process.env.PORT || 3000 )
