@@ -6,5 +6,5 @@
 
 
 
-<p align="center"><em> My Portfolio  <a href="https://portfolio-ahmad-hendi.herokuapp.com/"></a>, majoring in web development. 🤓 </br>
-</em></p>
+<a href="https://portfolio-ahmad-hendi.herokuapp.com/" align="center"></a>
+
