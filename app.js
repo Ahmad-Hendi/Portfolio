@@ -67,5 +67,5 @@ app.use('/public', express.static(path.join(__dirname, 'public')))
 app.use('/', require('./routes/aboutme'));
 app.use('/register' ,require('./routes/register'));
 app.use('/navigation' ,require('./routes/navigation'));
-heroku
+
 app.listen(process.env.PORT || 3000 )
