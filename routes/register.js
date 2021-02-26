@@ -44,7 +44,7 @@ router.post('/', (req, res) => {
         // tls: {
         //   rejectUnauthorized: false
         // },
-        requireTLS: true,
+        // requireTLS: true,
         auth: {
           user: process.env.EMAIL,
           pass: process.env.EMAIL_PASS,
