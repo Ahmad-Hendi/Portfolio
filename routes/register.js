@@ -63,7 +63,7 @@ router.post('/', (req, res) => {
         html : `
         Thanks for your message ${req.body.firstName} ⇣ <br>
         Don't hesitate to check my projects on <a href="https://github.com/Ahmad-Hendi">GitHub 📚 </a> <br>
-        Here you are a copy of you message <br>
+        Here you are a copy of your message <br>
         <span style="color:gray; font-size: 130% ">  📃 ${req.body.message} 📃 <span>
         `,
         
