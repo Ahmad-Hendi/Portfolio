@@ -14,13 +14,3 @@ function splitScroll(){
 
 splitScroll();
 
-// function bgChanger(){
-//     console.log("working");
-//     if(this.scrollY < this.innerHeight){
-//         document.querySelector('.container-service').classList.add("bg-color");
-//     }else{
-//         document.querySelector('.container-service').classList.remove("bg-color");
-//     }
-// }
-
-// window.addEventListener("scroll", bgChanger);

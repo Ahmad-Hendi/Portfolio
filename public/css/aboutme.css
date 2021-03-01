@@ -7,10 +7,21 @@
     margin: 0;
     padding: 0;
     font-family: 'Teko', sans-serif;
+  }
 
-
+    #slider{
+      
+      background-color: #ba9ae3;
+      height: 100vh;
+      display: flex;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      
+    }
      
-}
 
 body{
     background-color: #e5e5e5;
@@ -161,14 +172,16 @@ body{
 /* slider start */
 .navigation-wrapper{
   height: 250vh;
-  background-color: darkslategrey;
+  background-color: #678d8b;
+  transition: all 0.4s ease-in-out;
 }
-
-
-.navigation-wrapper{
+.navigation-wrapper.active{
   height: 250vh;
   background-color: darkslategrey;
+  transition: all 0.4s ease-in-out;
 }
+
+
 
 .projects{
   display: flex;
@@ -259,20 +272,32 @@ span {
 /* Form Start */
 
  .contact-me {
-  background-color: rgb(214, 214, 214);
+  background: darkslategrey;
   height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  transition: all 0.5s ease-in-out;
 }
+ .contact-me.active {
+  background:  rgb(255, 255, 255);
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
 
 section .container-contact-me{
   position: relative;
   width: 800px;
   height: 500px;
-  background: #fff;
+  background: rgb(231, 231, 231);
   box-shadow: 0 15px 50px rgba(0, 0, 0, .01);
   overflow: hidden;
 }
@@ -343,131 +368,44 @@ section .container-contact-me .user .formBx form button {
   font-weight: 300;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
 
 /* Form End */
 
-
-
-
-
-
-
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-/* Form Start */
 
-.contact-me {
-  background-color: rgb(214, 214, 214);
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
 
-section .container-contact-me{
-  position: relative;
-  width: 800px;
-  height: 500px;
-  background: #fff;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, .01);
-  overflow: hidden;
-}
 
-section .container-contact-me .user {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
 
-section .container-contact-me .user .formBx {
-  padding: 9%;
-}
 
-section .container-contact-me .user .formBx form h2 {
-  font-size: 23px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 10px;
-  color: #555;
 
-}
 
-section .container-contact-me .user .formBx form input {
-  position: relative;
-  width: 100%;
-  padding: 10px;
-  background: #f5f5f5;
-  color: #333;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  margin: 8px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: 300;
-}
-section .container-contact-me .user .formBx form textarea {
-  position: relative;
-  width: 100%;
-  padding: 10px;
-  background: #f5f5f5;
-  color: #333;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  margin: 8px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  color: #ba9ae3;
-}
-section .container-contact-me .user .formBx form button {
-  position: relative;
-  width: 100%;
-  padding: 10px;
-  background: #f5f5f5;
-  color: rgb(109, 109, 109);
-  border: none;
-  outline: none;
-  box-shadow: none;
-  margin: 8px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -640,6 +578,7 @@ section .container-contact-me .user .formBx form button {
     display: flex;
 }
 
+
 .about-title{
     display: flex;
     background-color: #e5e5e5;
@@ -648,7 +587,9 @@ section .container-contact-me .user .formBx form button {
     justify-content: center;
     align-items: center;
     font-size: 35px;
+
 }
+
 
 .about-title>h2{
     font-size: 250%;
