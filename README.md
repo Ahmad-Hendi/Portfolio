@@ -5,4 +5,9 @@
 https://portfolio-ahmad-hendi.herokuapp.com/
 
 ## Home Page 
+there is some animations when the page is load
 <img src="https://raw.githubusercontent.com/Ahmad-Hendi/General-Photos/main/apps/portofolioOne.jpg" width="100%"/>
+
+## Projects section 
+here i am sharing some of my projects that i did last 4 months 
+<img src="https://raw.githubusercontent.com/Ahmad-Hendi/General-Photos/main/apps/portofolioTwo.jpg" width="100%"/>
