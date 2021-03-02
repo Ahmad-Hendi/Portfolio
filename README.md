@@ -15,6 +15,6 @@ Here i am sharing some of my projects that i did last 4 months
 
 ## Contact Me
 A simple form with Node Js in back-end </br>
-<p> this form will <span style="color:yellow"> send you an automatic message </span> when you submit it </p>
+<p align="center"> this form will <span style="color:yellow"> send you an automatic message </span> when you submit it </p>
 <img src="https://raw.githubusercontent.com/Ahmad-Hendi/General-Photos/main/apps/portofolioThree.jpg" width="100%"/>
 
