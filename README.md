@@ -5,4 +5,4 @@
 https://portfolio-ahmad-hendi.herokuapp.com/
 
 ## Home Page 
-<img src="https://raw.githubusercontent.com/Ahmad-Hendi/General-Photos/main/apps/portofolioOne" width="100%"/>
+<img src="https://raw.githubusercontent.com/Ahmad-Hendi/General-Photos/main/apps/portofolioOne.jpg" width="100%"/>
