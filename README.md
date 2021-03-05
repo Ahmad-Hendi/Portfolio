@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 # Portfolio
 
@@ -20,4 +18,4 @@ A simple form with Node Js in back-end </br>
 <p>  send you an automatic message  when you submit it </p>
 <img src="https://raw.githubusercontent.com/Ahmad-Hendi/General-Photos/main/apps/portofolioThree.jpg" width="100%"/>
 </div>
->>>>>>> fad0a2fa7c9274c5fe0134df3d952fbc3a145936
+
