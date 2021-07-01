@@ -9,8 +9,8 @@ window.onscroll = function () {
     let bottom = window.scrollY;
     let middle = window.scrollY;
 
-    console.log(`%c${bottom}`, "font-size: 20px; color:green");
-    console.log(`%c${middle}`, "font-size: 20px; color:red");
+    // console.log(`%c${bottom}`, "font-size: 20px; color:green");
+    // console.log(`%c${middle}`, "font-size: 20px; color:red");
 
 
 
