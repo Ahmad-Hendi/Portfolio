@@ -7,10 +7,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Teko', sans-serif;
-  }
+}
   
 
-    #slider{
+    /* #slider{
       
       background-color: rgba(255, 255, 255, 0.4);
       height: 100vh;
@@ -21,12 +21,12 @@
       bottom: 0;
       right: 0;
       
-    }
+    } */
      
 
 body{
   background: rgb(48, 47, 47);
-    transition: all 0.5 ease;
+  /* transition: all 0.5 ease; */
 }
 
 .landing{
@@ -166,19 +166,6 @@ body{
 }
 
     
-    
-  
-
-
-  
- 
-
-
-
-
-
-
-
 
 
 /* slider start */
@@ -434,201 +421,10 @@ section .container-contact-me .user .formBx form button {
 /* Form End */
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* +++++++++++++++++++++++ */
-/* media query(iphone 6/7/8) hroizental */
-
-
-
-
-
-
-
-
-@media (max-width: 736px){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Teko', sans-serif;  
-    }
-
-    .revlant {
-        display: flex;
-        height: 17%;
-        width: 100%;
-        padding-left: 3%;
-    }
-
-
-}
-
-
     
 
-/* media query (iphone 6/7/8) hroizental end */
-/* +++++++++++++++++++++++ */
 
 
-/* +++++++++++++++++++++++ */
-/* media query(iphone 6/7/8) start */
-
-
-@media (max-width: 414px){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Teko', sans-serif;  
-    }
-
-    .container{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container .img {
-
-        
-        width: 100%;
-        height: 228%;
-        order: 2;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: flex-start;
-        padding: 5px;
-    
-    }
-    .text-container {
-        display: flex;
-        align-items: center;
-        margin: 0px;
-        text-align: center;
-        width: 100%;
-        font-size: 20px;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .revlant {
-
-        display: flex;
-        height: 17%;
-        width: 100%;
-        padding-left: 26%;
-    }
-
-}
-@media (max-width: 708px){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Teko', sans-serif;  
-    }
-
-    .container{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container .img {
-
-        
-        width: 100%;
-        height: 228%;
-        order: 2;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: flex-start;
-        padding: 5px;
-    
-    }
-    .text-container {
-        display: flex;
-        align-items: center;
-        margin: 0px;
-        text-align: center;
-        width: 100%;
-        font-size: 18px;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .revlant {
-
-        display: flex;
-        height: 17%;
-        width: 100%;
-        padding-left: 26%;
-    }
-
-}
-
-
-
-/* media query (iphone 6/7/8)  end */
-/* +++++++++++++++++++++++ */
 
 
 
@@ -778,11 +574,65 @@ section .container-contact-me .user .formBx form button {
 
 
 
+                                        /* @Responsive start /*
+                          /* ********************************************************* */
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                          /* @screen 900px start */ 
+  @media only screen and (max-width: 1200px){
+  .videoBox > video {
+    width: 930px;
+  }
+
+  .myServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+  }
+  .myServicesTitle {
+    width: 0%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .myServices > div{
+    height: 370px;
+    width: 370px;
+  }
 
 
+    
+}
+                              /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                          /* @screen 900px end */ 
+                                          /* @screen 900px start */ 
+  @media only screen and (max-width: 1100px){
+  .videoBox > video {
+    width: 830px;
+  }
+
+  .myServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+  }
+  .myServicesTitle {
+    width: 0%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .myServices > div{
+    height: 270px;
+    width: 270px;
+  }
 
 
-  @media (max-width: 820px){
+    
+}
+                              /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                          /* @screen 900px end */ 
+                                          /* @screen 820px start */ 
+  @media only screen and (max-width: 820px){
     .img-slider{
       width: 600px;
       height: 327px;
@@ -852,15 +702,101 @@ section .container-contact-me .user .formBx form button {
       margin: 64px 0;
   } 
 
-  .icons {
-    display: none;
+  .videoBox > video{
+    width: 230px;
   }
+
+
+  .myServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+  }
+  .myServicesTitle {
+    width: 0%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .myServices > div{
+    height: 220px;
+    width: 220px;
+  }
+
 
     
   }
+                             /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 820px end */ 
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 708px start */ 
+  @media only screen and (max-width: 708px){
+    .videoBox > video {
+      width: 630px;
+    }
   
-  @media (max-width: 620px){
-    .img-slider{
+
+    .container{
+        width: 100%;
+        margin-bottom: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .img {
+        width: 100%;
+        height: 100%;
+        order: 2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        padding: 5px;
+    
+    }
+    .text-container {
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .revlant {
+
+        display: flex;
+        height: 17%;
+        width: 100%;
+        padding-left: 26%;
+    }
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .myServices > div{
+      height: 200px;
+      width: 200px;
+    }
+
+}
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 708px end */ 
+  
+                          /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 620px start */ 
+  @media only screen and (max-width: 620px){
+    /* .img-slider{
       width: 400px;
       height: 214px;
     }
@@ -886,8 +822,27 @@ section .container-contact-me .user .formBx form button {
       width: 8px;
       height: 8px;
       margin: 6px;
-    }
+    } */
 
+
+    .container{
+      width: 100%;
+      margin-bottom: 60%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container .img {
+    width: 100%;
+    height: 100%;
+    order: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+
+}
     .about-title{
         display: flex;
         background-color: #e5e5e5;
@@ -939,17 +894,221 @@ section .container-contact-me .user .formBx form button {
   display: block;
   user-select: none;
   margin: 7   4px 0;
-}
-.icons {
-  display: none;
-}
-
   }
+
+  .myServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+  }
+  .myServicesTitle {
+    width: 0%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .myServices > div{
+    height: 150px;
+    width: 150px;
+  }
+
+
+}
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 620px end */ 
   
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 520px start */ 
+@media only screen and (max-width: 520px) {
+    /* first page start */
+
+
+    .container{
+      width: 100%;
+      height: 140vh;
+      margin-bottom: 50%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container .img {
+      width: 100%;
+      height: 80%;
+      order: 2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: flex-start;
+      padding: 5px;
+      justify-content: center;
+  
+  }
+  .container .img > canvas{
+      height: 100% !important;
+      width: 400px !important;
+  
+  }
+    .videoBox > video{
+        width: 400px;
+    }
+
+
+    .services {
+      margin-bottom: 40%;
+  }
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+  }
+    .myServices > div{
+      height: 190px;
+      width: 190px;
+    }
+    .navBar > img {
+      position: absolute;
+      top: 1%;
+      left: 87%;
+      
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 520px end */ 
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 420px start */ 
+  @media only screen and (max-width: 420px) {
+    /* first page start */
+
+
+    .container{
+      width: 100%;
+      height: 140vh;
+      margin-bottom: 50%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container .img {
+      width: 100%;
+      height: 80%;
+      order: 2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: flex-start;
+      padding: 5px;
+      justify-content: center;
+  
+  }
+  .container .img > canvas{
+      height: 100% !important;
+      width: 300px !important;
+  
+  }
+  .text-container {
+      display: flex;
+      align-items: center;
+      margin: 0px;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      flex-direction: column;
+      justify-content: center;
+
+  }
+
+  .revlant {
+
+      display: flex;
+      height: 17%;
+      width: 100%;
+      padding-left: 26%;
+  }
+
+    .navBar > img {
+      top: 0%;
+      left: 80%;
+
+  }
+    .videoBox > video{
+        width: 230px;
+    }
+
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+  }
+    .myServices > div{
+      height: 190px;
+      width: 190px;
+    }
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 420px end */ 
                                         /* @screen 411px start */ 
   @media only screen and (max-width: 414px) {
     /* first page start */
+
+
+    .container{
+      width: 100%;
+      margin-bottom: 50%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container .img {
+
+      
+      width: 100%;
+      height: 228%;
+      order: 2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: flex-start;
+      padding: 5px;
+  
+  }
+  .container .img > canvas{
+    height: 100% !important;
+    width: 370px !important;
+
+}
+  .text-container {
+      display: flex;
+      align-items: center;
+      margin: 0px;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      flex-direction: column;
+      justify-content: center;
+
+  }
+
+  .revlant {
+
+      display: flex;
+      height: 17%;
+      width: 100%;
+      padding-left: 26%;
+  }
 
     .navBar > img {
       top: 0%;
@@ -1064,7 +1223,32 @@ section .container-contact-me .user .formBx form button {
     .videoBox > video{
         width: 230px;
     }
+    .container{
+      width: 100%;
+      margin-bottom: 50%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
 
+  .container .img {
+
+      
+      width: 100%;
+      height: 228%;
+      order: 2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: flex-start;
+      padding: 5px;
+  
+  }
+  .container .img > canvas{
+    height: 100% !important;
+    width: 320px !important;
+
+}
     
     .myServices{
       display: grid;
@@ -1100,7 +1284,32 @@ section .container-contact-me .user .formBx form button {
         width: 230px;
     }
 
-    
+    .container{
+      width: 100%;
+      margin-bottom: 50%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container .img {
+
+      
+      width: 100%;
+      height: 228%;
+      order: 2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: flex-start;
+      padding: 5px;
+  
+  }
+  .container .img > canvas{
+    height: 100% !important;
+    width: 200px !important;
+
+}
     .myServices{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
