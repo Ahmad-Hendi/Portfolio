@@ -948,7 +948,7 @@ section .container-contact-me .user .formBx form button {
   
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 411px start */ 
-  @media only screen and (max-width: 411px) {
+  @media only screen and (max-width: 414px) {
     /* first page start */
 
     .navBar > img {
@@ -973,8 +973,8 @@ section .container-contact-me .user .formBx form button {
       grid-template-columns: repeat(1, 1fr);
   }
     .myServices > div{
-      height: 220px;
-      width: 220px;
+      height: 190px;
+      width: 190px;
     }
   }
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
