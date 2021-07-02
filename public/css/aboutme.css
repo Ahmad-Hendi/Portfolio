@@ -324,7 +324,6 @@ span {
   position: relative;
   justify-self: center;
   position: relative;
-  background: red;
 }
 
 
@@ -1026,14 +1025,140 @@ section .container-contact-me .user .formBx form button {
 
   
 
-
-  @media only screen and (max-width: 283px) {
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 375px start */ 
+  @media only screen and (max-width: 411px) {
     /* first page start */
+
+    .navBar > img {
+      top: 0%;
+      left: 80%;
+
+  }
     .videoBox > video{
         width: 230px;
     }
-  
+
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
   }
-  
+    .myServices > div{
+      height: 220px;
+      width: 220px;
+    }
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 375px end */ 
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 375px start */ 
+  @media only screen and (max-width: 375px) {
+    /* first page start */
+
+    .navBar > img {
+      top: 0%;
+      left: 80%;
+
+  }
+    .videoBox > video{
+        width: 230px;
+    }
+
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+  }
+    .myServices > div{
+      height: 150px;
+      width: 150px;
+    }
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 375px end */ 
+
+
+                          /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 320px start */ 
+  @media only screen and (max-width: 320px) {
+    /* first page start */
+
+    .navBar > img {
+      top: 0%;
+      left: 78%;
+
+  }
+    .videoBox > video{
+        width: 230px;
+    }
+
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+  }
+    .myServices > div{
+      height: 120px;
+      width: 120px;
+    }
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 320px end */ 
+        
+                          /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 283px start */ 
+  @media only screen and (max-width: 283px) {
+    /* first page start */
+
+    .navBar > img {
+      top: 0%;
+      left: 78%;
+
+  }
+    .videoBox > video{
+        width: 230px;
+    }
+
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+  }
+    .myServices > div{
+      height: 120px;
+      width: 120px;
+    }
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 283px end */ 
         
  
