@@ -946,6 +946,49 @@ section .container-contact-me .user .formBx form button {
   }
   
   @media (max-width: 375px){
+ 
+
+  }
+
+  
+
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 411px start */ 
+  @media only screen and (max-width: 411px) {
+    /* first page start */
+
+    .navBar > img {
+      top: 0%;
+      left: 80%;
+
+  }
+    .videoBox > video{
+        width: 230px;
+    }
+
+    
+    .myServices{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-top: 20px;
+    }
+    .myServicesTitle {
+      width: 0%;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(1, 1fr);
+  }
+    .myServices > div{
+      height: 220px;
+      width: 220px;
+    }
+  }
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 411px end */ 
+                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
+                                        /* @screen 375px start */ 
+  @media only screen and (max-width: 375px) {
+
     .img-slider{
       
       width: 520px;
@@ -1017,51 +1060,7 @@ section .container-contact-me .user .formBx form button {
       margin: 54px 0;
   } 
 
-  .icons {
-    display: none;
-  }
 
-  }
-
-  
-
-                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
-                                        /* @screen 375px start */ 
-  @media only screen and (max-width: 411px) {
-    /* first page start */
-
-    .navBar > img {
-      top: 0%;
-      left: 80%;
-
-  }
-    .videoBox > video{
-        width: 230px;
-    }
-
-    
-    .myServices{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      padding-top: 20px;
-    }
-    .myServicesTitle {
-      width: 0%;
-      align-items: center;
-      justify-content: center;
-      grid-template-columns: repeat(1, 1fr);
-  }
-    .myServices > div{
-      height: 220px;
-      width: 220px;
-    }
-  }
-                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
-                                        /* @screen 375px end */ 
-                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
-                                        /* @screen 375px start */ 
-  @media only screen and (max-width: 375px) {
-    /* first page start */
 
     .navBar > img {
       top: 0%;
