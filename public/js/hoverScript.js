@@ -18,12 +18,12 @@ _ photography servicers
 */
 
 // photography servicers //
-let myPhotographylService = new hoverEffect({
-    parent: document.querySelector('.photography'),
-    image1: '../public/images/servicesPhotographOne.jpg',
-    image2: '../public/images/servicesPhotographTwo.jpg',
-    displacementImage: '../public/images/photographyDisplacement.png',
-});
+// let myPhotographylService = new hoverEffect({
+//     parent: document.querySelector('.photography'),
+//     image1: '../public/images/servicesPhotographOne.jpg',
+//     image2: '../public/images/servicesPhotographTwo.jpg',
+//     displacementImage: '../public/images/photographyDisplacement.png',
+// });
 // setInterval(() => {
 //     myPhotographylService.next()
 // }, 3300);
@@ -31,13 +31,13 @@ let myPhotographylService = new hoverEffect({
 //     myPhotographylService.previous()
 // }, 6600);
 
-// video servicers //
-let myVideographylService = new hoverEffect({
-    parent: document.querySelector('.videography'),
-    image1: '../public/images/servicesVideoOne.jpg',
-    image2: '../public/images/servicesVideoTwo.jpg',
-    displacementImage: '../public/images/diss.png',
-});
+// // video servicers //
+// let myVideographylService = new hoverEffect({
+//     parent: document.querySelector('.videography'),
+//     image1: '../public/images/servicesVideoOne.jpg',
+//     image2: '../public/images/servicesVideoTwo.jpg',
+//     displacementImage: '../public/images/diss.png',
+// });
 // setInterval(() => {
 //     myVideographylService.next()
 // }, 3500);
@@ -45,13 +45,13 @@ let myVideographylService = new hoverEffect({
 //     myVideographylService.previous()
 // }, 7000);
 
-// digital servicers //
-let myDigitalService = new hoverEffect({
-    parent: document.querySelector('.digital'),
-    image1: '../public/images/servicesDigitalOne.jpg',
-    image2: '../public/images/servicesDigitalTwo.jpg',
-    displacementImage: '../public/images/codeDisplacement.png',
-});
+// // digital servicers //
+// let myDigitalService = new hoverEffect({
+//     parent: document.querySelector('.digital'),
+//     image1: '../public/images/servicesDigitalOne.jpg',
+//     image2: '../public/images/servicesDigitalTwo.jpg',
+//     displacementImage: '../public/images/codeDisplacement.png',
+// });
 // setInterval(() => {
 //     myDigitalService.next()
 // }, 3700);

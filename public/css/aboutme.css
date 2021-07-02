@@ -324,6 +324,7 @@ span {
   position: relative;
   justify-self: center;
   position: relative;
+  background: #678d8b;
 }
 
 
@@ -945,13 +946,6 @@ section .container-contact-me .user .formBx form button {
 
   }
   
-  @media (max-width: 375px){
- 
-
-  }
-
-  
-
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 411px start */ 
   @media only screen and (max-width: 411px) {
