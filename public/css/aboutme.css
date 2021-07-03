@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
@@ -37,6 +36,10 @@ body{
   align-items: center;
 }
 
+#resumeVideo{
+  opacity: 0;
+}
+
 .videoBox video{
   height: 600px;
   width: 1000px;
@@ -45,7 +48,7 @@ body{
 
 .navBar{
   display: flex;
-  
+  opacity: 0;
   color: #dbdbdb;
   justify-content: space-between;
 }
@@ -71,6 +74,7 @@ body{
 
 .socialMedia {
   display: flex;
+  opacity: 0;
   position: absolute;
   top: 90%;
   justify-content: center;
@@ -313,6 +317,57 @@ span {
   position: relative;
   background: #678d8b;
 }
+
+/* services text start */
+.photography::after {
+  display: grid;
+  content: 'Photography';
+  place-content: center;
+  position: absolute;
+  top: 110%;
+  text-transform: uppercase;
+  width: 100%;
+  color: #777777;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+.photography:hover::after {
+  color: #dbdbdb;
+}
+
+.videography::after {
+  display: grid;
+  content: 'videography';
+  place-content: center;
+  position: absolute;
+  top: 110%;
+  text-transform: uppercase;
+  width: 100%;
+  color: #777777;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+.videography:hover::after {
+  color: #dbdbdb;
+}
+.digital::after {
+  display: grid;
+  content: 'digital';
+  place-content: center;
+  position: absolute;
+  top: 110%;
+  text-transform: uppercase;
+  width: 100%;
+  color: #777777;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+.digital:hover::after {
+  color: #dbdbdb;
+}
+
+/* services text end */
+
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -722,6 +777,10 @@ section .container-contact-me .user .formBx form button {
     height: 220px;
     width: 220px;
   }
+  .photography:after , .videography::after,  .digital::after{
+    font-size: 2rem;
+
+  }
 
 
     
@@ -900,6 +959,7 @@ section .container-contact-me .user .formBx form button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 20px;
+    grid-gap: 15%;
   }
   .myServicesTitle {
     width: 0%;
@@ -911,6 +971,10 @@ section .container-contact-me .user .formBx form button {
     height: 150px;
     width: 150px;
   }
+  .photography:after , .videography::after,  .digital::after{
+    font-size: 1.5rem;
+
+  }
 
 
 }
@@ -919,10 +983,8 @@ section .container-contact-me .user .formBx form button {
   
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 520px start */ 
+
 @media only screen and (max-width: 520px) {
-    /* first page start */
-
-
     .container{
       width: 100%;
       height: 140vh;

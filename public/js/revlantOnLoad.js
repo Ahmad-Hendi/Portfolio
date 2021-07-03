@@ -1,23 +1,29 @@
 console.log("%c", "test", "color:red") ;
 
+// About Me //
+// i have to change it later to on scrool //
 const img = document.querySelector('.img');
 const typing = document.querySelector('.typing');
 const developer = document.querySelector('.developer');
 const text = document.querySelector('#dev-text');
 const cv = document.querySelector('#cv');
 const iAm = document.querySelector('#iAm');
-const slider = document.querySelector('#slider');
+const resumeVideo = document.querySelector('#resumeVideo');
+const socialMedia = document.querySelector('.socialMedia');
+// const slider = document.querySelector('#slider');
 
-// icons
-const iconOne = document.querySelector('#icon-one');
-const iconTwo = document.querySelector('#icon-two');
-const iconThree = document.querySelector('#icon-three');
-const iconFour = document.querySelector('#icon-four');
+
+// Nav bar
+const nav = document.querySelector('.navBar');
+
 
 
 const tl = new TimelineMax();
 
-tl.fromTo(slider, 2, {height: "120%", ease: Power2.easInOut}, {height: "0%", ease: Power2.easInOut, })
+tl.fromTo(resumeVideo, 1, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut} )
+tl.fromTo(nav, 0.5, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut} )
+tl.fromTo(socialMedia, 1, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut} )
+// tl.fromTo(slider, 2, {height: "120%", ease: Power2.easInOut}, {height: "0%", ease: Power2.easInOut, })
 
 
 
@@ -29,11 +35,11 @@ tl.fromTo(text, 0.5, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: P
 tl.fromTo(cv, 0.5, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut} )
 
 
-// icons
-tl.fromTo(iconOne, 1, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut}, "-=1.9" )
-tl.fromTo(iconTwo, 1, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut}, "-=1.6" )
-tl.fromTo(iconThree, 1, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut}, "-=1.4" )
-tl.fromTo(iconFour, 1, { opacity: 0, ease: Power1.easInOut}, { opacity: 1, ease: Power2.easInOut}, "-=1.2" )
+// Nav bar
+
+
+
+
 
 
 
