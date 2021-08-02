@@ -261,7 +261,7 @@ span {
   left: 50%;
   width: 0px;
   height: 400px;
-  background: url(../../images/3.jpg) no-repeat 50% 50%;
+  /* background: url(../../images/3.jpg) no-repeat 50% 50%; */
   background-size: cover;
   overflow: hidden;
 }
@@ -1425,6 +1425,9 @@ section .container-contact-me .user .formBx form button {
       height: 120px;
       width: 120px;
     }
+    #dev-text {
+      font-size: 1rem;
+  }
   }
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 283px end */

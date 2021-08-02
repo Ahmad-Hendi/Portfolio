@@ -24,12 +24,12 @@ let myPhotographylService = new hoverEffect({
     image2: '../public/images/servicesPhotographTwo.jpg',
     displacementImage: '../public/images/photographyDisplacement.png',
 });
-setInterval(() => {
-    myPhotographylService.next()
-}, 3300);
-setInterval(() => {
-    myPhotographylService.previous()
-}, 6600);
+// setInterval(() => {
+//     myPhotographylService.next()
+// }, 3300);
+// setInterval(() => {
+//     myPhotographylService.previous()
+// }, 6600);
 
 // video servicers //
 let myVideographylService = new hoverEffect({
@@ -38,12 +38,12 @@ let myVideographylService = new hoverEffect({
     image2: '../public/images/servicesVideoTwo.jpg',
     displacementImage: '../public/images/diss.png',
 });
-setInterval(() => {
-    myVideographylService.next()
-}, 3500);
-setInterval(() => {
-    myVideographylService.previous()
-}, 7000);
+// setInterval(() => {
+//     myVideographylService.next()
+// }, 3500);
+// setInterval(() => {
+//     myVideographylService.previous()
+// }, 7000);
 
 // digital servicers //
 let myDigitalService = new hoverEffect({
@@ -52,12 +52,12 @@ let myDigitalService = new hoverEffect({
     image2: '../public/images/servicesDigitalTwo.jpg',
     displacementImage: '../public/images/codeDisplacement.png',
 });
-setInterval(() => {
-    myDigitalService.next()
-}, 3700);
-setInterval(() => {
-    myDigitalService.previous()
-}, 7400);
+// setInterval(() => {
+//     myDigitalService.next()
+// }, 3700);
+// setInterval(() => {
+//     myDigitalService.previous()
+// }, 7400);
 
 // services section end //
 
