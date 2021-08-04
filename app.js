@@ -69,9 +69,12 @@ app.use('/', require('./routes/aboutme'));
 app.use('/register' ,require('./routes/register'));
 app.use('/navigation' ,require('./routes/navigation'));
 app.use('/photography' ,require('./routes/photography'));
+app.use('/videography' ,require('./routes/videography'));
 app.use('/portrait' ,require('./routes/portrait'));
 app.use('/wedding' ,require('./routes/wedding'));
 app.use('/products' ,require('./routes/products'));
+app.use('/events' ,require('./routes/events'));
+app.use('/shop' ,require('./routes/shop'));
 app.use(cors())
 
 // app.listen(process.env.PORT || 3000 )
