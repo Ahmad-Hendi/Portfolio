@@ -69,6 +69,9 @@ app.use('/', require('./routes/aboutme'));
 app.use('/register' ,require('./routes/register'));
 app.use('/navigation' ,require('./routes/navigation'));
 app.use('/photography' ,require('./routes/photography'));
+app.use('/portrait' ,require('./routes/portrait'));
+app.use('/wedding' ,require('./routes/wedding'));
+app.use('/products' ,require('./routes/products'));
 app.use(cors())
 
 // app.listen(process.env.PORT || 3000 )
