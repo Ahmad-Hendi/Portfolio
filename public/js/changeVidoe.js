@@ -1,5 +1,5 @@
 
-window.addEventListener('resize', () => {
+window.addEventListener('load', () => {
     let screenWidth = $(window).width();
     let video = document.querySelector('#resumeVideo')
     if (screenWidth < 700) {

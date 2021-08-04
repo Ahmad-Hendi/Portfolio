@@ -107,8 +107,8 @@
     position: absolute;
     top: 2200px;
     left: 500px;
-    background: url(../videos/resumeVideo1080.mp4)
-    
+    background: url(../videos/resumeVideo1080.mp4) no-repeat 50% 50%;
+    background-size: cover;
 }
 
 .project-next-link {

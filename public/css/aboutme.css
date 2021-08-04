@@ -1208,6 +1208,7 @@ section .container-contact-me .user .formBx form button {
                                         /* @screen 375px start */ 
   @media only screen and (max-width: 375px) {
 
+
     .img-slider{
       
       width: 520px;
@@ -1398,8 +1399,7 @@ section .container-contact-me .user .formBx form button {
                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 283px start */ 
   @media only screen and (max-width: 283px) {
-    /* first page start */
-
+    /* first page start */ 
     .navBar > img {
       top: 0%;
       left: 78%;
