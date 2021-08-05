@@ -897,16 +897,9 @@ section .container-contact-me .user .formBx form button {
       flex-direction: column;
   }
 
-  .container .img {
-    width: 100%;
-    height: 100%;
-    order: 2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
-    padding: 5px;
-
+  #imgMe {
+    background-color: skyblue;
+    max-height: 100%;
 }
     .about-title{
         display: flex;
@@ -999,18 +992,10 @@ section .container-contact-me .user .formBx form button {
       flex-direction: column;
   }
 
-  .container .img {
-      width: 100%;
-      height: 80%;
-      order: 2;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      align-items: flex-start;
-      padding: 5px;
-      justify-content: center;
-  
-  }
+  #imgMe {
+    background-color: skyblue;
+    max-height: 100%;
+}
   /* .container .img > canvas{
       height: 100% !important;
       width: 400px !important;
