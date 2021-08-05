@@ -106,6 +106,8 @@ body{
   background-size: cover;
   display: flex;
   padding: 10px;
+  background-color: red;
+  background-image: url(../images/aboutme1.png);
 }
 
 .text-container {
