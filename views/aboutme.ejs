@@ -16,6 +16,10 @@
 
 </head>
 <body>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
   <div class="landing">
     <div class="navBar">
       <p>
@@ -157,10 +161,14 @@
     <!-- Form End  -->
   
     
-    
+    <script>
+   $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+ });
+    </script>
        
   
-  
+ 
   
 
     
