@@ -8,7 +8,7 @@ $(document).ready(function() {
         .on("mouseover", ".navigation-item", function(evt) {
           tl = new TimelineLite();
           tl.to($(".project-preview"), 1, {
-            width: "700px",
+            width: "500px",
             ease: Expo.easeInOut
           });
         })

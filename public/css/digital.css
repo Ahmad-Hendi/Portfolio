@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+#js-scroll {
+    background-color: rgb(48, 47, 47);
+}
+.project__container {
+    width: 70%;
+    margin: 40px auto;
+    color: #fff;
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.project__container-title h1{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 140px;
+}
+
+.project__container-subtitle {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+/* slider start */
+.navigation-wrapper{
+  height: 250vh;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+.navigation-wrapper.active{
+  height: 250vh;
+  background-color: rgba(0, 0, 0, .01);
+  transition: all 0.4s ease-in-out;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.progressbar {
+  position: fixed;
+  top: 0;
+  left: 85%;
+  background: rgba(255, 255, 255, 0.4);
+  width: 1px;
+  z-index: 1;
+}
+
+.navigation-wrapper ul {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  list-style: none;
+  position: absolute;
+}
+
+.navigation-item {
+  display: block;
+  user-select: none;
+  margin: 70px 0;
+}
+
+a {
+
+  font-size: 100px;
+  text-decoration: none;
+  color: gray;
+}
+
+span {
+  position: relative;
+  display: block;
+}
+
+.navigation-item span:before {
+  width: 0;
+  color: #dbdbdb;
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-text);
+  transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
+}
+
+.navigation-item span:hover:before {
+  width: 100%;
+}
+
+.project-preview-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.project-preview {
+  position: fixed;
+  top: 1%;
+  left: 50%;
+  width: 0px;
+  height: 400px;
+  /* background: url(../../images/3.jpg) no-repeat 50% 50%; */
+  background-size: cover;
+  overflow: hidden;
+}
+/* slider end */
+
+
+
+/* ----------------------- */
+/* footer start */
+
+.project-next-link {
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-next-link a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 160px;
+}
+
+.anime-js-title .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin: 20p;
+    justify-content: center;
+}
+.socialMedia a{
+    color: seashell;
+    margin: 30px;
+}
+  
+
+/* @responsive start */
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 80%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .project__image {
+        width: 90%;
+    }
+
+    .project__image-one, .project__image-two, .project__image-three, .project__image-four {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+}
+@media(max-width: 700px) {
+   .project-next-link a{
+    font-size: 80px;
+   }
+   .project-next-link {
+    top: 70px;
+   }
+   .socialMedia {
+
+    flex-direction: column;
+    font-size: 20px;
+  
+}
+.project__image-nine{
+    position: absolute;
+    top: 1000;
+    left: 0;
+}
+ .project__image-eight{
+    position: absolute;
+    top: 800;
+    left: 0;
+}
+   
+}
+@media(max-width: 370px) {
+   .project-next-link a{
+    font-size: 55px;
+   }
+
+   .project__image-nine{
+    position: absolute;
+    top: 1000;
+    left: 0;
+}
+ .project__image-eight{
+    position: absolute;
+    top: 800;
+    left: 0;
+}
+.project__container-images {
+    position: relative;
+    height: 400vh;
+}
+   
+}

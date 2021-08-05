@@ -70,6 +70,7 @@ app.use('/register' ,require('./routes/register'));
 app.use('/navigation' ,require('./routes/navigation'));
 app.use('/photography' ,require('./routes/photography'));
 app.use('/videography' ,require('./routes/videography'));
+app.use('/digital' ,require('./routes/digital'));
 app.use('/portrait' ,require('./routes/portrait'));
 app.use('/wedding' ,require('./routes/wedding'));
 app.use('/products' ,require('./routes/products'));
