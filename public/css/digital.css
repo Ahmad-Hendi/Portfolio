@@ -4,6 +4,7 @@
 
 #js-scroll {
     background-color: rgb(48, 47, 47);
+    position: ;
 }
 .project__container {
     width: 70%;
@@ -24,97 +25,93 @@
     font-size: 16px;
 }
 
-/* slider start */
-.navigation-wrapper{
-  height: 250vh;
+
+/* navigation start  */
+.container-menu{
+  display: grid;
+  place-content: center;
+  margin-top: 20%;
+}
+
+.menu {
   position: relative;
-  transition: all 0.4s ease-in-out;
-}
-.navigation-wrapper.active{
-  height: 250vh;
-  background-color: rgba(0, 0, 0, .01);
-  transition: all 0.4s ease-in-out;
-}
-
-.projects{
+  top: -2%;
+  height: 100%;
+  width: 100vh;
   display: flex;
-  justify-content: center;
-  padding-top: 90px;
-  font-size: 40px;
-  text-transform: uppercase;
+  flex-direction: column;
+}
+.menu-item {
+  position: relative;
+  flex: 1;
+  border-bottom: 1px solid white;
 }
 
-::-webkit-scrollbar {
-  width: 0;
-}
-
-.progressbar {
-  position: fixed;
-  top: 0;
-  left: 85%;
-  background: rgba(255, 255, 255, 0.4);
-  width: 1px;
-  z-index: 1;
-}
-
-.navigation-wrapper ul {
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-bottom: 200px;
-  list-style: none;
-  position: absolute;
-}
-
-.navigation-item {
-  display: block;
-  user-select: none;
-  margin: 70px 0;
-}
-
-a {
-
-  font-size: 100px;
+.menu span {
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  color: whitesmoke;
   text-decoration: none;
-  color: gray;
+  mix-blend-mode: difference;
+  font-size: 70px;
+  padding-left: 1rem;
+  font-family: 'Teko', sans-serif;
 }
 
-span {
-  position: relative;
-  display: block;
+
+.one {
+  background-image: url(../images/weatherapp.jpg);
+}
+.two {
+  background-image: url(../images/weatherapp.jpg);
+}
+.three {
+  background-image: url(../images/ecommerce.jpg);
+}
+.four {
+  background-image: url(../images/weatherapp.jpg);
+}
+.five {
+  background-image: url(../images/weatherapp.jpg);
 }
 
-.navigation-item span:before {
-  width: 0;
-  color: #dbdbdb;
-  overflow: hidden;
+
+.hover-reveal {
   position: absolute;
-  content: attr(data-text);
-  transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
-}
-
-.navigation-item span:hover:before {
-  width: 100%;
-}
-
-.project-preview-wrapper {
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-}
-
-.project-preview {
-  position: fixed;
-  top: 1%;
-  left: 50%;
-  width: 0px;
+  top: 0;
+  left: 0;
+  width: 300px;
   height: 400px;
-  /* background: url(../../images/3.jpg) no-repeat 50% 50%; */
-  background-size: cover;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(0, -300px);
+  transition: hidden;
+}
+
+.hover-reveal__inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  will-change: transform;
   overflow: hidden;
 }
-/* slider end */
+
+.hover-reveal__img {
+  background-size: cover;
+  background-position: 50% 50%;
+  transform-origin: 50% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  will-change: transform;
+  transform: scale(0.8, 0.8);
+  transition: 1.5s transform;
+}
+
+/* navigation end  */
+
 
 
 
@@ -155,6 +152,10 @@ span {
     margin: 30px;
 }
   
+.project-next-link {
+
+  margin-top: 30%;
+}
 
 /* @responsive start */
 

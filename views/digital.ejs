@@ -57,8 +57,8 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur nam, corporis ex est blanditiis labore dolorum, a magnam, 
                     ipsa cumque maiores repudiandae voluptate voluptatibus reiciendis necessitatibus perferendis veritatis nostrum aspernatur.
                 </p>
-            </div>
-<!-- 
+            </div> 
+            <!-- 
             <div class="navigation-wrapper">
                 <div class="projects" class="navigation-link navigation-link-1">
                   <h1>projects</h1>
@@ -112,6 +112,52 @@
                 <!-- </ul>
               </div>  -->
 
+              <!-- navigation start  -->
+            <div class="container-menu">
+              <nav class="menu">
+                <a href="" class="menu-item">
+                    <span>Home</span>
+                    <div class="hover-reveal">
+                        <div class="hover-reveal__inner">
+                            <div class="hover-reveal__img one"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="menu-item">
+                    <span>About</span>
+                    <div class="hover-reveal">
+                        <div class="hover-reveal__inner">
+                            <div class="hover-reveal__img two"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="menu-item">
+                    <span>Desgin</span>
+                    <div class="hover-reveal">
+                        <div class="hover-reveal__inner">
+                            <div class="hover-reveal__img three"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="menu-item">
+                    <span>Projects</span>
+                    <div class="hover-reveal">
+                        <div class="hover-reveal__inner">
+                            <div class="hover-reveal__img four"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="menu-item">
+                    <span>hello</span>
+                    <div class="hover-reveal">
+                        <div class="hover-reveal__inner">
+                            <div class="hover-reveal__img five"></div>
+                        </div>
+                    </div>
+                </a>
+              </nav>
+            </div>
+
             <div class="project-next-link" data-scroll>
                 <a href="/">Find me on</a>
             </div>
@@ -123,6 +169,30 @@
               </div>
         </div>
     </div>
+
+    <script>
+      let links = document.querySelectorAll('.menu-item')
+      let linkImages = document.querySelectorAll('.hover-reveal__img')
+
+      links.forEach((link, idx) => {
+        link.addEventListener('mousemove', (e) => {
+          link.children[1].style.opacity = 1;
+          link.children[0].style.zIndex = 3;
+          link.children[1].style.transform = `translate(${e.clientX - 300}px, -${e.clientY / 3}px) rotate(${e.clientX / 20}deg`;
+          linkImages[idx].style.transform = 'scale(1, 1)'
+          link.style.zIndex = 2;
+        })
+
+        link.addEventListener('mouseleave', (e) => {
+          link.children[1].style.opacity = 0;
+          link.children[1].style.transform = `translate(${-e.clientX}px, - 300px)`;
+          linkImages[idx].style.transform = 'scale(0.8, 0.8)'
+          link.style.zIndex = 0;
+        })
+
+      })
+
+    </script>
 
     <script src="../public/js/horizontal-scroll-script.js"></script> -->
     <script src="../public/js/baffle.js"></script>

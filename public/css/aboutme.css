@@ -221,8 +221,9 @@ body{
     
 
 
-/* slider start */
-.navigation-wrapper{
+
+
+/* .navigation-wrapper{
   height: 250vh;
   background-color: rgba(255, 255, 255, 0.4);
   transition: all 0.4s ease-in-out;
@@ -310,10 +311,9 @@ span {
   left: 50%;
   width: 0px;
   height: 400px;
-  /* background: url(../../images/3.jpg) no-repeat 50% 50%; */
   background-size: cover;
   overflow: hidden;
-}
+} */
 /* slider end */
 
 
