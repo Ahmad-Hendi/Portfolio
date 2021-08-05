@@ -17,7 +17,7 @@ TweenMax.from(".projects", 3, {
     opacity: 0,
     ease: Expo.easeInOut
 });
-TweenMax.from(".navigation-list", 3, {
+TweenMax.from(".menu-item", 4, {
     y: 10,
     opacity: 0,
     ease: Expo.easeInOut
