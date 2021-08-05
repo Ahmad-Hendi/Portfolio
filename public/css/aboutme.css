@@ -101,13 +101,26 @@ body{
 }
 
 
-.container .img{
+/* .container .img{
   width: 50%;
   background-size: cover;
   display: flex;
   padding: 10px;
   background-color: red;
   background-image: url(../images/aboutme1.png);
+} */
+
+#imgMe {
+  order: 2;
+  flex: 0.5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#imgMe img{
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .text-container {
@@ -896,11 +909,6 @@ section .container-contact-me .user .formBx form button {
       display: flex;
       flex-direction: column;
   }
-
-  #imgMe {
-    background-color: skyblue;
-    max-height: 100%;
-}
     .about-title{
         display: flex;
         background-color: #e5e5e5;
