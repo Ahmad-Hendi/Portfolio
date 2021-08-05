@@ -1011,11 +1011,11 @@ section .container-contact-me .user .formBx form button {
       justify-content: center;
   
   }
-  .container .img > canvas{
+  /* .container .img > canvas{
       height: 100% !important;
       width: 400px !important;
   
-  }
+  } */
     .videoBox > video{
         width: 400px;
     }
@@ -1429,6 +1429,11 @@ section .container-contact-me .user .formBx form button {
     }
     #dev-text {
       font-size: 1rem;
+  }
+
+  #imgMe {
+    background-color: skyblue;
+    max-height: 100%;
   }
   }
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
