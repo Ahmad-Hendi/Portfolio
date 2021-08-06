@@ -78,6 +78,8 @@ body {
        20pt 0px 0px rgba(255,255,255,1);
    }
 /* scrollMe end */
+
+/* go back start */
 .GoBack {
     position: relative;
     width: 100%;
@@ -95,6 +97,7 @@ body {
 .GoBack a:hover {
     color: rgb(245, 245, 245);
 }
+/* go back end */
 
 /* horizontal scroll items  */
 .container {

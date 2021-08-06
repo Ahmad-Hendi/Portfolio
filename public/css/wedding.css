@@ -5,6 +5,29 @@
 #js-scroll {
     background-color: rgb(48, 47, 47);
 }
+
+
+
+/* go back start */
+.GoBack {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    place-items: center;
+    font-family: 'Teko', sans-serif;
+}
+.GoBack a {
+    color: rgb(160, 160, 160);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.GoBack a:hover {
+    color: rgb(245, 245, 245);
+}
+/* go back end */
+
 .project__container {
     width: 70%;
     margin: 40px auto;
