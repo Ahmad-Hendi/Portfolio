@@ -11,46 +11,92 @@ body {
 }
 
 /* menu */
-/* nav {
-    position: fixed !important;
-    top: 0;
+/* scrollMe start */
+@keyframes pulsea {
+    0%, 80%, 100% { 
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0), 
+       10pt 0px 0px rgba(255,255,255,0), 
+       20pt 0px 0px rgba(255,255,255,0);
+    }
+    10% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0.5), 
+       10pt 0px 0px rgba(255,255,255,0), 
+       20pt 0px 0px rgba(255,255,255,0);
+    }
+    20% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,1), 
+       10pt 0px 0px rgba(255,255,255,0), 
+       20pt 0px 0px rgba(255,255,255,0);
+    }
+    30% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0.5), 
+       10pt 0px 0px rgba(255,255,255,0.5), 
+       20pt 0px 0px rgba(255,255,255,0);
+    }
+    40% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0), 
+       10pt 0px 0px rgba(255,255,255,1), 
+       20pt 0px 0px rgba(255,255,255,0);
+    }
+    50% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0), 
+       10pt 0px 0px rgba(255,255,255,0.5), 
+       20pt 0px 0px rgba(255,255,255,0.5);
+    }
+    60% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0), 
+       10pt 0px 0px rgba(255,255,255,0), 
+       20pt 0px 0px rgba(255,255,255,1);
+    }
+    70% {
+       text-shadow: 
+       0pt 0px 0px rgba(255,255,255,0), 
+       10pt 0px 0px rgba(255,255,255,0), 
+       20pt 0px 0px rgba(255,255,255,0.5);
+    }
+   }
+   
+   .scrollme::after{
+     position: absolute;
+     top: 90%;
+     left: 30%;
+     animation: pulsea 2s linear infinite;
+     font-size:20pt;
+     color:transparent; /*Using only shadows makes the animation easier*/
+     font-family: FontAwesome;
+     content:"\f105";
+     text-shadow: 
+       0pt 0px 0px rgba(255,255,255,1), 
+       10pt 0px 0px rgba(255,255,255,1), 
+       20pt 0px 0px rgba(255,255,255,1);
+   }
+/* scrollMe end */
+.GoBack {
+    position: relative;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 2;
+    padding-top: 20px;
+    display: grid;
+    place-items: center;
+    font-family: 'Teko', sans-serif;
 }
-
-.menu__logo, .menu__items-link {
-    padding: 40px;
-}
-
-.menu__logo a img{
-    width: 50px;
-} */
-/* .menu__logo a {
-    color: #fff;
-    font-size: 1px;
+.GoBack a {
+    color: rgb(160, 160, 160);
+    font-size: 1.5rem;
+    text-decoration: none;
     text-transform: uppercase;
-    text-decoration: none;
-} */
-
-/* .menu__items {
-    display: flex;
 }
-
-.menu__items-link a {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
+.GoBack a:hover {
+    color: rgb(245, 245, 245);
 }
-
-.menu__items-link.active a {
-    text-decoration: underline;
-} */
 
 /* horizontal scroll items  */
-
 .container {
     margin-top: 200px;
     margin-left: 200px;
