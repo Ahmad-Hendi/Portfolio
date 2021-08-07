@@ -11,6 +11,7 @@
     font-family: 'Teko', sans-serif;
 }
 .GoBack a {
+    z-index: 3;
     color: rgb(160, 160, 160);
     font-size: 1.5rem;
     text-decoration: none;
