@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
         video.src = '/public/videos/resumeVideo1080.mp4'
         video.play()
     }else{
-        video.src = '/public/videos/ResumeVideo.mov'
+        video.src = '/public/videos/ResumeVideo.mp4'
         video.play()
     }
 })
