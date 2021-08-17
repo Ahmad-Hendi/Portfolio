@@ -216,6 +216,7 @@ body{
   position: absolute;
   top: 90%;
   justify-content: center;
+  z-index: 30;
 }
 
 .socialMedia > a{
