@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- metadata start -->
+    <title>Ahmad Hendi - Photographer & Developer - Belgium </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, height=device-height"/>
     <meta name="google-site-verification" content="nnEfAm3RmXrDoA8V59vBDLj3E621RItTB62pXuVHeAQ" />
+    <meta name="description" content="Bring your imagination to reality with the photographer and developer Ahmad Hendi. Based in Belgium Brussels. Wedding Photographer Fashion Photographer Products photographer. Web designer Web developer ">
+    <meta name="author" content="Ahmad Hendi">
+
+    <!-- Open Graph start -->
+    <!-- <meta property="fb:app_id‎" content="Ahmad Hendi"> -->
+    <meta property="og:title" content="Ahmad Hendi - Photographer & Developer - Belgium ">
+    <meta property="og:description" content="Bring your imagination to reality with the photographer and developer Ahmad Hendi. Based in Belgium Brussels. Wedding Photographer Fashion Photographer Products photographer. Web designer Web developer ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.ahmadhendi.com/">
+    <meta property="og:site_name" content="Ahmad Hendi">
+    <meta property="og:image" content="http://www.ahmadhendi.com/public/images/aboutme2.png">
+    <meta property="og:image:alt" content="Ahmad Hendi">
+    
+
+
+    <meta itemprop="name" content="Ahmad Hendi">
+    <meta itemprop="description" content="Bring your imagination to reality with the photographer and developer Ahmad Hendi. Based in Belgium Brussels. Wedding Photographer Fashion Photographer Products photographer. Web designer Web developer ">
+    <meta itemprop="image" content="http://www.ahmadhendi.com/public/images/aboutme2.png">
+    <!-- <meta property="og:image" content="http://"> -->
+    <!-- <meta property="og:image:width" content="1920"> -->
+    <!-- <meta property="og:image:height" content="2560"> -->
+    <!-- <meta property="og:locale" content="fr_FR"> -->
+    <!-- Open Graph start -->
+
+    <!-- metadata end -->
+
+    <!-- style sheet start -->
     <link rel="stylesheet" type="text/css" href="../public/css/aboutme.css">
+    <link rel="icon" type="image/png" href="../public/images/logo.png">
+    <!-- style sheet end -->
+
     <!-- <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css"> -->
+    
+    
     <!--cdn for hover effect start--> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -18,13 +52,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <!--cdn block reveal effect ends -->   
-
-
 </head>
+
 <body>
   <!-- <audio  src="../public/audio/IntroSoundEffect.mp3" autoplay controls hidden></audio> -->
   <!-- <button onclick="play()">Play Audio</button> -->
-  <iframe src="../public/audio/IntroSoundEffect.mp3" hidden="false"  allow="autoplay"></iframe>
+  <!-- <iframe src="../public/audio/IntroSoundEffect.mp3" onloadedmetadata="this.muted = false" playsinline autoplay hidden></iframe> -->
   <!-- block reveal effect & landig page start  -->
   <div class="containerLanding">
     <div class="navBar">
@@ -62,8 +95,8 @@
   <!-- block reveal effect & landig page end  -->
 
   <div class="container">
-        <div id="imgMe">
-            <img src="../public/images/aboutme2.png" alt="Ahmad Hendi">
+        <div id="imgMe" >
+            <img src="../public/images/aboutme2.png" itemprop="name" alt="Ahmad Hendi">
         </div>
         <div class="text-container">
             <div class="revlant">
@@ -71,7 +104,7 @@
                 <h1 class="typing"> </h1>
             </div>
             <div class="test">
-                <h2 class="developer">⌌ developer & designer⌍  </h2>
+                <h2 class="developer" itemprop="services"> photographer & developer </h2>
                 <p id="dev-text">I'm 28 years old Front End Developer based in Brussels. 
                     I describe myself as a passionate developer who loves 
                     coding, and the web platform.
@@ -101,7 +134,7 @@
     </section>
 
     <!-- Form start  -->
-    <section class="contact-me " >
+    <section class="contact-me">
       <div class="container-contact-me">
         
         <div class="user singupBx"> 
@@ -165,11 +198,6 @@
 				0.2
       );
       
-//       function play() {
-//         var audio = new Audio('../public/audio/IntroSoundEffect.mp3');
-//       audio.play();
-// }
-
       </script>
   
   
