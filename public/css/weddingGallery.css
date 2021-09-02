@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+#js-scroll {
+    background-color: rgb(48, 47, 47);
+}
+
+/* go back start */
+.GoBack {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    place-items: center;
+    font-family: 'Teko', sans-serif;
+    z-index: 3;
+}
+.GoBack a {
+    color: rgb(160, 160, 160);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.GoBack a:hover {
+    color: rgb(245, 245, 245);
+}
+/* go back end */
+
+.project__container {
+    width: 70%;
+    margin: 40px auto;
+    /* border: 1px solid #5c5c5c; */
+    color: #fff;
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.project__container-title h1{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 140px;
+}
+
+.project__container-subtitle {
+    margin: 20px 0;
+    font-family: "Neue Montreal";
+    font-size: 16px;
+}
+
+.project__container-images {
+    position: relative;
+    width: 100%;
+    height: 3500px;
+    padding: 40px 0;
+}
+
+.project__image {
+    background: red;
+    width: 600px;
+    height: 500px;
+    margin: 40px auto;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+
+
+.project-next-link {
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-next-link a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 160px;
+}
+
+.anime-js-title .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin: 20p;
+    justify-content: center;
+}
+.socialMedia a{
+    color: seashell;
+    margin: 30px;
+}
+  
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 80%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+@media(max-width: 700px) {
+   .project-next-link a{
+    font-size: 80px;
+   }
+   .project-next-link {
+    top: 70px;
+   }
+   .socialMedia {
+
+    flex-direction: column;
+    font-size: 20px;
+  
+}
+   
+}
+@media(max-width: 370px) {
+   .project-next-link a{
+    font-size: 55px;
+   }
+
+   .project__image-nine{
+    position: absolute;
+    top: 1000;
+    left: 0;
+}
+ .project__image-eight{
+    position: absolute;
+    top: 800;
+    left: 0;
+}
+.project__container-images {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+   
+}
