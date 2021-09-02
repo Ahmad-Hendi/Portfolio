@@ -65,17 +65,17 @@ body {
    
    .scrollme::after{
      position: absolute;
-     top: 90%;
+     top: 95%;
      left: 30%;
      animation: pulsea 2s linear infinite;
-     font-size:20pt;
-     color:transparent; /*Using only shadows makes the animation easier*/
+     font-size: 20pt;
+     color: transparent; /*Using only shadows makes the animation easier*/
      font-family: FontAwesome;
      content:"\f105";
      text-shadow: 
-       0pt 0px 0px rgba(255,255,255,1), 
-       10pt 0px 0px rgba(255,255,255,1), 
-       20pt 0px 0px rgba(255,255,255,1);
+       0pt 0px 0px rgb(241, 175, 175), 
+       10pt 0px 0px rgb(219, 88, 88), 
+       20pt 0px 0px rgb(192, 43, 43);
    }
 /* scrollMe end */
 
@@ -101,7 +101,7 @@ body {
 
 /* horizontal scroll items  */
 .container {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 200px;
 }
 
@@ -162,6 +162,9 @@ body {
     background: url(../images/shop.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+.container__item-1, .container__item-2, .container__item-3, .container__item-4, .container__item-5 {
+    cursor: pointer;
+}
 
 @media(max-width: 900px) {
     .container__item {
@@ -181,123 +184,3 @@ body {
     }
 }
 
-
-/* project section */
-
-.project__container {
-    width: 70%;
-    margin: 40px auto;
-    /* border: 1px solid #5c5c5c; */
-    color: #fff;
-    padding: 120px 40px;
-    text-align: center;
-}
-
-.project__container-title h1{
-    color: #fff;
-    font-family: 'Teko', sans-serif;
-    font-size: 140px;
-}
-
-.project__container-subtitle {
-    margin: 20px 0;
-    font-family: "Neue Montreal";
-    font-size: 16px;
-}
-
-.project__container-images {
-    position: relative;
-    width: 100%;
-    height: 2500px;
-    padding: 40px 0;
-}
-
-.project__image {
-    background: red;
-    width: 600px;
-    height: 500px;
-    margin: 40px auto;
-}
-
-.project__image-one {
-    background: url(../images/PortraitFive.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project__image-two {
-    position: relative;
-    top: -100px;
-    left: -260px;
-    background: url(../images/PortraitTwo.png) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project__image-three {
-    position: relative;
-    top: -150px;
-    left: 300px;
-    background: url(../images/PortraitOne.png) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project__image-four {
-    position: relative;
-    top: -100px;
-    left: -100px;
-    background: url(../images/PortraitFour.png) no-repeat 50% 50%;
-    background-size: cover;
-}
-.project__image-five {
-    position: relative;
-    top: -1000px;
-    left: -300px;
-    background: url(../images/PortraitThree.png) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project-next-link {
-    position: relative;
-    top: -100px;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-next-link a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Teko', sans-serif;
-    font-size: 160px;
-}
-
-.anime-js-title .letter {
-    display: inline-block;
-    line-height: 1em;
-}
-
-@media(max-width: 900px) {
-    .project__container-title h1 {
-        font-size: 40px;
-    }
-
-    .project__container {
-        width: 80%;
-    }
-
-    .project__container-images {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .project__image {
-        width: 90%;
-    }
-
-    .project__image-one, .project__image-two, .project__image-three, .project__image-four {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-}

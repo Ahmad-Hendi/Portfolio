@@ -28,29 +28,29 @@
             <div class="container__item container__item-header">
                 <h1>I don’t trust words. <br> I trust pictures.</h1>
             </div>
-            <div class="container__item container__item-1">
+            <div class="container__item container__item-1" onclick="location.href='/portrait' ">
                 <h1 class="container__item-title">
                     <a href="/portrait">Portrait </a>
                 </h1>
             </div>
-            <div class="container__item container__item-2">
+            <div class="container__item container__item-2" onclick="location.href='/wedding' ">
                 <h1 class="container__item-title">
                     <a href="/wedding">Weddings</a>
                 </h1>
             </div>
-            <div class="container__item container__item-3">
+            <div class="container__item container__item-3" onclick="location.href='/products' ">
                 <h1 class="container__item-title">
                     <a href="/products">Products</a>
                 </h1>
             </div>
-            <div class="container__item container__item-4">
+            <div class="container__item container__item-4" onclick="location.href='/events' ">
                 <h1 class="container__item-title">
                     <a href="/events">Events</a>
                 </h1>
             </div>
-            <div class="container__item container__item-5">
+            <div class="container__item container__item-5" onclick="location.href='/shop' ">
                 <h1 class="container__item-title">
-                    <a href="/shop">Shop</a>
+                    <a href="/shop">shop</a>
                 </h1>
             </div>
         </div>
@@ -60,14 +60,28 @@
     <!-- script -->
     <script src="../public/js/horizontal-scroll.js"></script>
     <script>
-        var blocks = document.getElementsByClassName("container__item");
-        var container = document.getElementsByClassName("container");
-        var hs = new HorizontalScroll.default({
+        const blocks = document.getElementsByClassName("container__item");
+        const container = document.getElementsByClassName("container");
+        const hs = new HorizontalScroll.default({
             blocks: blocks,
             container: container,
             isAnimated: true,
             springEffect: 0.8,
         });
+
+
+        
+
+        // function links() {
+        //     document.addEventListener('click', (e) => {
+        //         e.preventDefault();
+        //         let openLinks = document.querySelector('.container__item-3')
+        //         console.log(openLinks);
+        //         window.location = "";    
+        //     })
+        // }
+
+        // links()
     </script>
     <!--load fontawesome-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
