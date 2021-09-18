@@ -64,9 +64,31 @@
 }
 
 .project__image-one {
-    background: url(../images/WeddinOne.jpg) no-repeat 50% 50%;
+    background: url(../images/MositbaAndAsel.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+
+.project__container-images > a {
+    text-decoration: none;
+
+}
+#weddingName {
+    bottom: 3%;
+    font-size: 1.7rem;
+    color: rgb(83 95 57);
+    right: 32%;
+    position: relative;
+}
+/* .project__image-one::after {
+    display: flex;
+    position: absolute;
+    right: -4%;
+    bottom: -3%;
+    font-size: 1.9rem;
+    content: "Asel & Mositba";
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+} */
 
 .project__image-two {
     position: relative;
@@ -130,7 +152,7 @@
     position: absolute;
     top: 2200px;
     left: 500px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    background: url(../images/WeddinOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
