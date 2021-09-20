@@ -1678,83 +1678,7 @@ section .container-contact-me .user .formBx form button {
         
                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 283px start */ 
-  @media only screen and (max-width: 283px) {
-    /* first page start */ 
-    .navBar > img {
-      top: 0%;
-      left: 78%;
 
-  }
-    .videoBox > video{
-        width: 275px;
-    }
-
-    
-    .myServices{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      padding-top: 20px;
-    }
-    .myServicesTitle {
-      width: 0%;
-      align-items: center;
-      justify-content: center;
-      grid-template-columns: repeat(1, 1fr);
-  }
-    .myServices > div{
-      height: 120px;
-      width: 120px;
-    }
-    #dev-text {
-      font-size: 1rem;
-  }
-
-  #imgMe {
-    flex: 0.5;
-    display: flex;
-    order: 2;
-  }
-  #imgMe img {
-    width: 100%;
-    margin: 0 auto;
-    align-self: flex-end;
-  }
-  .block-1 {
-    margin: 0 10px;
-    background: #05da88;
-  }
-  
-  .block-2 {
-    margin: 0 5px 0 1px;
-    background: #2001fe;
-  }
-  
-  .block-3 {
-    margin: 0 5px;
-    background: #86ff82;
-  }
-  
-  .block-4 {
-    margin: 0 30px;
-    background: #dd7412;
-  }
-  
-  .block-5 {
-    margin: 0 10px;
-    background: #f4f315;
-  }
-  
-  .block-6 {
-    margin: 0 10px;
-    background: #fa04f9;
-  }
-
-  h3 {
-    font-weight: 500;
-    font-size: 100px;
-    }
- 
-  }
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 283px end */
                                         /* @screen 150px start */ 
@@ -1766,7 +1690,7 @@ section .container-contact-me .user .formBx form button {
 
   }
     .videoBox > video{
-        width: 230px;
+        width: 270px;
     }
 
     
