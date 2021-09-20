@@ -262,6 +262,11 @@
     top: 800;
     left: 0;
 }
+.project__image-six {
+    position: absolute;
+    top: 2200px;
+    left: 8px;
+}
 .project__image-seven {
     position: absolute;
     left: 0;

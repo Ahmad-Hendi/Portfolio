@@ -267,9 +267,14 @@
     top: 800;
     left: 0;
 }
+.project__image-six {
+    position: absolute;
+    top: 2000px;
+}
+   
 .project__container-images {
     position: relative;
     height: 400vh;
 }
-   
+
 }
