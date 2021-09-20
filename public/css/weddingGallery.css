@@ -52,7 +52,7 @@
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 3500px;
+    height: 5500px;
     padding: 40px 0;
 }
 
@@ -107,7 +107,7 @@
 }
 .project__image-seven {
     position: absolute;
-    top: -1400px;
+    top: 3200px;
     left: -100px;
     background: url(../images/Weddings/AsalSeven.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -140,24 +140,24 @@
     background: url(../images/Weddings/AsalEleven.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
-.project__image-twelve {
+.project__image-twelve{
     position: absolute;
-    top: 2200px;
+    top: 3100px;
     left: 500px;
     background: url(../images/Weddings/AsalTweleve.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-thirten {
     position: absolute;
-    top: 2200px;
+    top: 3600px;
     left: 500px;
     background: url(../images/Weddings/AsalThirten.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-fourtien {
     position: absolute;
-    top: 2200px;
-    left: 500px;
+    top: 3800px;
+    left: -10px;
     background: url(../images/Weddings/AsalFourtien.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -188,7 +188,7 @@
     display: flex;
     align-items: center;
     font-size: 30px;
-    margin: 20p;
+    margin: 20px;
     justify-content: center;
 }
 .socialMedia a{
@@ -262,9 +262,13 @@
     top: 800;
     left: 0;
 }
+.project__image-seven {
+    position: absolute;
+    left: 0;
+}
 .project__container-images {
     position: relative;
-    height: 400vh;
+    height: 520vh;
 }
    
 }
