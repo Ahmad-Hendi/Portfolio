@@ -52,7 +52,7 @@
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 3000px;
+    height: 4800px;
     padding: 40px 0;
 }
 
@@ -64,56 +64,23 @@
 }
 
 .project__image-one {
-    background: url(../images/MositbaAndAsel.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinTen.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
-
-.project__container-images > a {
-    text-decoration: none;
-
-}
-#weddingNameLeft {
-    bottom: 3%;
-    font-size: 2rem;
-    color: rgb(83 95 57);
-    right: 32%;
-    position: relative;
-    color: rgb(160, 160, 160);
-    mix-blend-mode: difference;
-}
-#weddingNameRight {
-    bottom: 3%;
-    font-size: 2rem;
-    color: rgb(83 95 57);
-    left: 32%;
-    color: rgb(160, 160, 160);
-    position: relative;
-    mix-blend-mode: difference;
-}
-/* .project__image-one::after {
-    display: flex;
-    position: absolute;
-    right: -4%;
-    bottom: -3%;
-    font-size: 1.9rem;
-    content: "Asel & Mositba";
-    color: #fff;
-    font-family: 'Teko', sans-serif;
-} */
 
 .project__image-two {
     position: relative;
     top: -100px;
     left: -260px;
-    background: url(../images/WeddinTwo.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinNine.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project__image-three {
     position: relative;
-    top: -350px;
+    top: -150px;
     left: 300px;
-    background: url(../images/Weddings/YassinOne.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinFour.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -121,49 +88,77 @@
     position: relative;
     top: -200px;
     left: -300px;
-    background: url(../images/WeddingFour.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinFive.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-five {
     position: relative;
     top: -600px;
     left: 400px;
-    background: url(../images/WeddingSeven.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinSix.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-six {
     position: absolute;
     top: 900px;
-    left: -30px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    left: 100px;
+    background: url(../images/Weddings/YassinSeven.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-seven {
     position: absolute;
-    top: 2200px;
-    left: 25%;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    top: 3200px;
+    left: -100px;
+    background: url(../images/Weddings/YassinEight.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-eight {
     position: absolute;
     top: 2700px;
     left: 250px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinThree.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-nine {
     position: absolute;
     top: 2000px;
     left: -200px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/YassinFour.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-ten {
     position: absolute;
+    top: 4100px;
+    left: 500px;
+    background: url(../images/Weddings/YassinTwo.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-eleven {
+    position: absolute;
     top: 2200px;
     left: 500px;
-    background: url(../images/WeddinOne.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/AsalEleven.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-twelve{
+    position: absolute;
+    top: 3100px;
+    left: 500px;
+    background: url(../images/Weddings/AsalTweleve.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-thirten {
+    position: absolute;
+    top: 3600px;
+    left: 500px;
+    background: url(../images/Weddings/AsalThirten.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-fourtien {
+    position: absolute;
+    top: 3800px;
+    left: -10px;
+    background: url(../images/Weddings/AsalFourtien.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -193,7 +188,7 @@
     display: flex;
     align-items: center;
     font-size: 30px;
-    margin: 20p;
+    margin: 20px;
     justify-content: center;
 }
 .socialMedia a{
@@ -267,9 +262,13 @@
     top: 800;
     left: 0;
 }
+.project__image-seven {
+    position: absolute;
+    left: 0;
+}
 .project__container-images {
     position: relative;
-    height: 400vh;
+    height: 520vh;
 }
    
 }

@@ -77,6 +77,7 @@ app.use('/products' ,require('./routes/products'));
 app.use('/events' ,require('./routes/events'));
 app.use('/shop' ,require('./routes/shop'));
 app.use('/weddingGallery' ,require('./routes/weddingGallery'));
+app.use('/weddingGalleryYassin' ,require('./routes/weddingGalleryYassin'));
 app.use(cors())
 
 // app.listen(process.env.PORT || 3000 )

@@ -1678,10 +1678,6 @@ section .container-contact-me .user .formBx form button {
         
                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
                                         /* @screen 283px start */ 
-
-                           /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
-                                        /* @screen 283px end */
-                                        /* @screen 150px start */ 
   @media only screen and (max-width: 283px) {
     /* first page start */ 
     .navBar > img {
@@ -1760,4 +1756,4 @@ section .container-contact-me .user .formBx form button {
  
   }
                            /* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱 */
-                                        /* @screen 150px end */
+                                        /* @screen 283px end */
