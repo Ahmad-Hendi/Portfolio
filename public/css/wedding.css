@@ -121,21 +121,21 @@
     position: relative;
     top: -200px;
     left: -300px;
-    background: url(../images/WeddingFour.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/Name.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-five {
     position: relative;
-    top: -600px;
-    left: 400px;
-    background: url(../images/WeddingSeven.jpg) no-repeat 50% 50%;
+    top: 600px;
+    left: -30px;
+    background: url(../images/Weddings/SafiOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-six {
     position: absolute;
     top: 900px;
     left: -30px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/BelgiumWedding.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-seven {
