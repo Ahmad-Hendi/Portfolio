@@ -49,6 +49,20 @@
     font-size: 16px;
 }
 
+#cv{
+    color: rgb(245, 245, 245);
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+
+#cv:hover{
+    color: rgb(233, 127, 201);
+}
+
 .project__container-images {
     position: relative;
     width: 100%;
