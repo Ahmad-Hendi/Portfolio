@@ -128,7 +128,7 @@
 }
 .project__image-ten {
     position: absolute;
-    top: 4100px;
+    top: 3800px;
     left: 500px;
     background: url(../images/Weddings/Asli&Cem/H10.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -147,20 +147,20 @@
     background: url(../images/Weddings/Asli&Cem/H12.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
-/* .project__image-thirten {
+.project__image-thirten {
     position: absolute;
-    top: 3600px;
-    left: 500px;
-    background: url(../images/Weddings/AsalThirten.jpg) no-repeat 50% 50%;
+    top: 4100px;
+    left: -100px;
+    background: url(../images/Weddings/Asli&Cem/H13.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-fourtien {
     position: absolute;
-    top: 3800px;
+    top: 3586px;
     left: -10px;
-    background: url(../images/Weddings/AsalFourtien.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/Asli&Cem/H14.jpg) no-repeat 50% 50%;
     background-size: cover;
-} */
+}
 
 .project-next-link {
     position: relative;
