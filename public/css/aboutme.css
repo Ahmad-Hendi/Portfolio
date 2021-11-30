@@ -38,7 +38,7 @@ transform: translate(-50%, -50%);
 }
 
 h3 {
-color: #dbdbdb;
+color: #e7a226;
 font-weight: 500;
 font-size: 240px;
 position: absolute;
@@ -100,12 +100,12 @@ li.block {
 .block-5 {
 	width: 0.8%;
 	margin: 0 20px;
-	background: #f4f315;
+	background: #e7a226;
 }
 
 .block-6 {
 	width: 2.8%;
-	background: #fa04f9;
+	background: #e7a226;
 }
 /* block reveal effect end */
 
@@ -276,7 +276,7 @@ body{
 }
 
 .text-container .developer{
-    color: #ba9ae3;
+    color: #e7a226;
 }
 
 .box-text{
@@ -338,7 +338,7 @@ body{
 .myServicesTitle > h2{
   font-size: 3.5rem;
   letter-spacing: 1px;
-  color: #dbdbdb;
+  color: #e7a226;
 }
 
 
@@ -377,7 +377,7 @@ body{
   top: 110%;
   text-transform: uppercase;
   width: 100%;
-  color: #777777;
+  color: #e7a226;
   font-size: 2.5rem;
   letter-spacing: 3px;
 }
@@ -393,7 +393,7 @@ body{
   top: 110%;
   text-transform: uppercase;
   width: 100%;
-  color: #777777;
+  color: #e7a226;
   font-size: 2.5rem;
   letter-spacing: 3px;
 }
@@ -408,7 +408,7 @@ body{
   top: 110%;
   text-transform: uppercase;
   width: 100%;
-  color: #777777;
+  color: #e7a226;
   font-size: 2.5rem;
   letter-spacing: 3px;
 }

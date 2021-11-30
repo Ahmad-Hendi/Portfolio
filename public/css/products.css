@@ -51,7 +51,7 @@
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 3500px;
+    height: 4000px;
     padding: 40px 0;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .project__image-one {
-    background: url(../images/Product16.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -71,7 +71,7 @@
     position: relative;
     top: -100px;
     left: -260px;
-    background: url(../images/Product15.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -79,7 +79,7 @@
     position: relative;
     top: -150px;
     left: 300px;
-    background: url(../images/ProductSeven.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -87,49 +87,63 @@
     position: relative;
     top: -200px;
     left: -300px;
-    background: url(../images/ProductNine.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-4.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-five {
     position: relative;
     top: -600px;
     left: 400px;
-    background: url(../images/ProductFive.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-5.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-six {
     position: absolute;
     top: 900px;
     left: 100px;
-    background: url(../images/Product17.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-6.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-seven {
     position: absolute;
     top: -1400px;
     left: -100px;
-    background: url(../images/ProductEight.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-7.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-eight {
     position: absolute;
     top: 2700px;
     left: 250px;
-    background: url(../images/ProductOne.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-8.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-nine {
     position: absolute;
     top: 2000px;
     left: -200px;
-    background: url(../images/ProductTwo.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-9.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-ten {
     position: absolute;
     top: 2200px;
     left: 500px;
-    background: url(../images/Product14.jpg) no-repeat 50% 50%;
+    background: url(../images/Products/Product-10.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-eleven {
+    position: absolute;
+    top: 3100px;
+    left: 250px;
+    background: url(../images/Products/Product-11.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-twelve {
+    position: absolute;
+    top: 3500px;
+    left: 250px;
+    background: url(../images/Products/Product-12.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
