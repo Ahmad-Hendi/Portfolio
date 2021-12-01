@@ -20,7 +20,7 @@
 
 }
 .containerLanding {
-  background-color: rgb(48, 47, 47);
+  background-color: rgb(24 24 24);
   position: relative;
   display: flex;
   width: 100%;
@@ -126,7 +126,7 @@ li.block {
      
 
 body{
-  background: rgb(48, 47, 47);
+  background-color: rgb(24 24 24);
 }
 
 /* loader start */

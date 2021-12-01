@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(24 24 24);
 }
 
 .home {
@@ -139,27 +139,27 @@ body {
 }
 
 .container__item-1 {
-    background: url(../images/Portrait.jpg) no-repeat 50% 50%;
+    background: url(../images/PhotographyTypes/Portrait.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-2 {
-    background: url(../images/wedding.png) no-repeat 50% 50%;
+    background: url(../images/PhotographyTypes/Weddings.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-3 {
-    background: url(../images/Product.jpg) no-repeat 50% 50%;
+    background: url(../images/PhotographyTypes/Products.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-4 {
-    background: url(../images/events.jpg) no-repeat 50% 50%;
+    background: url(../images/PhotographyTypes/Events.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-5 {
-    background: url(../images/shop.jpg) no-repeat 50% 50%;
+    background: url(../images/PhotographyTypes/Shop.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .container__item-1, .container__item-2, .container__item-3, .container__item-4, .container__item-5 {

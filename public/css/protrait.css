@@ -23,7 +23,7 @@
 /* go back end */
 
 #js-scroll {
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(24 24 24);
 }
 .project__container {
     width: 70%;
@@ -61,7 +61,7 @@
 }
 
 .project__image-one {
-    background: url(../images/PortraitFive.jpg) no-repeat 50% 50%;
+    background: url(../images/Portrait/Portrait-1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -69,7 +69,7 @@
     position: relative;
     top: -100px;
     left: -260px;
-    background: url(../images/PortraitTwo.png) no-repeat 50% 50%;
+    background: url(../images/Portrait/Portrait-2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -77,7 +77,7 @@
     position: relative;
     top: -150px;
     left: 300px;
-    background: url(../images/PortraitOne.png) no-repeat 50% 50%;
+    background: url(../images/Portrait/Portrait-3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -85,14 +85,14 @@
     position: relative;
     top: -100px;
     left: -100px;
-    background: url(../images/PortraitFour.png) no-repeat 50% 50%;
+    background: url(../images/Portrait/Portrait-4.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-five {
     position: relative;
     top: -1000px;
     left: -300px;
-    background: url(../images/PortraitThree.png) no-repeat 50% 50%;
+    background: url(../images/Portrait/Portrait-5.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -184,6 +184,15 @@
     
  }
 
+ @media(max-width: 450px) {
+
+ .project__image-five {
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+
+ }
  @media(max-width: 370px) {
     .project-next-link a{
      font-size: 55px;
@@ -199,6 +208,10 @@
      top: 800;
      left: 0;
  }
+ .project__image-five {
+    position: relative;
+    top: 270px;
+}
  .project__container-images {
      position: relative;
      height: 400vh;

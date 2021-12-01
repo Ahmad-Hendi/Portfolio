@@ -3,7 +3,7 @@
 
 
 #js-scroll {
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(24 24 24);
 }
 
 
@@ -62,7 +62,7 @@
     height: 500px;
     margin: 40px auto;
 }
-
+/* 
 .project__image-one {
     background: url(../images/WeddinOne.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -132,7 +132,7 @@
     left: 500px;
     background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
     background-size: cover;
-}
+} */
 
 .project-next-link {
     position: relative;
