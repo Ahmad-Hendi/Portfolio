@@ -230,6 +230,25 @@
  }
     
  }
+ @media(max-width: 420px) {
+  .project__image-eight{
+     position: absolute;
+     top: 800;
+     left: 0;
+ }
+ .project__image-eleven {
+    position: absolute;
+    top: 3100px;
+    left: 0px;
+}
+ .project__image-twelve {
+    position: absolute;
+    top: 3500px;
+    left: 0px;
+}
+
+    
+ }
  @media(max-width: 370px) {
     .project-next-link a{
      font-size: 55px;
