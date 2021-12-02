@@ -81,20 +81,20 @@ li.block {
 	z-index: 10;
 	width: 1.4%;
 	margin: 0 400px 0 20px;
-	background: #2001fe;
+	background: #01c3fe;
 }
 
 .block-3 {
 	z-index: 10;
 	width: 0.8%;
 	margin: 0 40px;
-	background: #01fefe;
+	background: #e7a226;
 }
 
 .block-4 {
 	width: 2%;
 	margin: 0 100px;
-	background: #00fe00;
+	background: #00fefe;
 }
 
 .block-5 {
@@ -105,7 +105,7 @@ li.block {
 
 .block-6 {
 	width: 2.8%;
-	background: #e7a226;
+	background: #46e726;
 }
 /* block reveal effect end */
 
