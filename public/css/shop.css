@@ -5,6 +5,29 @@
 #js-scroll {
     background-color: rgb(24 24 24);
 }
+
+
+
+/* go back start */
+.GoBack {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    place-items: center;
+    font-family: 'Teko', sans-serif;
+}
+.GoBack a {
+    color: rgb(255, 166, 0);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.GoBack a:hover {
+    color: rgb(245, 245, 245);
+}
+/* go back end */
+
 .project__container {
     width: 70%;
     margin: 40px auto;
@@ -26,55 +49,147 @@
     font-size: 16px;
 }
 
+#cv{
+    color: rgb(245, 245, 245);
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+#cv:hover{
+    color: rgb(233, 127, 201);
+}
+
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 2500px;
+    height: 3800px;
     padding: 40px 0;
 }
 
 .project__image {
-    background: red;
     width: 600px;
     height: 500px;
     margin: 40px auto;
+    cursor: pointer;
 }
 
 .project__image-one {
-    background: url(../images/PortraitFive.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/EgliseNotreDameDeLaeken.jpg) no-repeat 50% 50%;
     background-size: cover;
+}
+
+.project__container-images > a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+/* #weddingNameLeft {
+    bottom: 3%;
+    font-size: 2rem;
+    color: rgb(83 95 57);
+    right: 32%;
+    position: relative;
+    color: rgb(160, 160, 160);
+    mix-blend-mode: difference;
+}
+#weddingNameRight {
+    bottom: 3%;
+    font-size: 2rem;
+    color: rgb(83 95 57);
+    left: 32%;
+    color: rgb(160, 160, 160);
+    position: relative;
+    mix-blend-mode: difference;
+} */
+.project__image::after {
+    display: flex;
+    justify-content: center;
+    right: 42%;
+    bottom: 20%;
+    font-size: 1.9rem;
+    content: "View Product";
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    background-color: #ffa600;
+    width: 100%;
+
+}
+.project__image:hover::after{
+    font-size: 1.9rem;
+    background-color: #dd9b1f;
+    cursor: pointer;
 }
 
 .project__image-two {
     position: relative;
     top: -100px;
     left: -260px;
-    background: url(../images/PortraitTwo.png) no-repeat 50% 50%;
+    background: url(../images/Shop/LaBourse.jpg) no-repeat 50% 50%;
     background-size: cover;
+    
 }
 
 .project__image-three {
     position: relative;
-    top: -150px;
+    top: -350px;
     left: 300px;
-    background: url(../images/PortraitOne.png) no-repeat 50% 50%;
+    background: url(../images/Shop/SecretSpotSchaerbeek.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project__image-four {
-    position: relative;
-    top: -100px;
-    left: -100px;
-    background: url(../images/PortraitFour.png) no-repeat 50% 50%;
+    position: absolute;
+    top: 1000px;
+    left: -170px;
+    background: url(../images/Shop/GareDeTrainDeSchaerbeekBalcony.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-five {
-    position: relative;
-    top: -1000px;
-    left: -300px;
-    background: url(../images/PortraitThree.png) no-repeat 50% 50%;
+    position: absolute;
+    top: 1300px;
+    left: 550px;
+    background: url(../images/Shop/GareCentrale.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+.project__image-six {
+    position: absolute;
+    top: 1400px;
+    left: -110px;
+    background: url(../images/Shop/GranplaceFlower.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-seven {
+    position: absolute;
+    top: 1700px;
+    left: 550;
+    background: url(../images/Shop/OrageGrandPlace.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-eight {
+    position: absolute;
+    top: 2000px;
+    left: 600px;
+    background: url(../images/Shop/DeBrouckerVelo.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-nine {
+    position: absolute;
+    top: 18000px;
+    left: 600px;
+    background: url(../images/Shop/FoireLouise.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+/* .project__image-ten {
+    position: absolute;
+    top: 2000px;
+    left: -110px;
+    background: url(../images/Shop/GareDeTrainDeSchaerbeekBalcony.jpg) no-repeat 50% 50%;
+    background-size: cover;
+} */
 
 .project-next-link {
     position: relative;
@@ -96,7 +211,21 @@
 .anime-js-title .letter {
     display: inline-block;
     line-height: 1em;
+    color: #ffa600;
 }
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin: 20p;
+    justify-content: center;
+}
+.socialMedia a{
+    color: seashell;
+    margin: 30px;
+}
+  
 
 @media(max-width: 900px) {
     .project__container-title h1 {
@@ -121,4 +250,57 @@
         top: 0;
         left: 0;
     }
+    
+}
+@media(max-width: 700px) {
+   .project-next-link a{
+    font-size: 80px;
+   }
+   .project-next-link {
+    top: 70px;
+   }
+   .socialMedia {
+
+    flex-direction: column;
+    font-size: 20px;
+  
+}
+.project__image-nine{
+    position: absolute;
+    top: 1000;
+    left: 0;
+}
+ .project__image-eight{
+    position: absolute;
+    top: 800;
+    left: 0;
+}
+   
+}
+@media(max-width: 370px) {
+   .project-next-link a{
+    font-size: 55px;
+   }
+
+   .project__image-nine{
+    position: absolute;
+    top: 1000;
+    left: 0;
+}
+ .project__image-eight{
+    position: absolute;
+    top: 800;
+    left: 0;
+}
+.project__image-six {
+    position: absolute;
+    top: 3400px;
+    left: 20px;
+}
+   
+.project__container-images {
+    position: relative;
+    height: 450vh;
+}
+
 }
