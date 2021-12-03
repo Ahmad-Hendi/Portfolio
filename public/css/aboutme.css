@@ -185,19 +185,21 @@ body{
 
 .navBar{
   display: flex;
-  opacity: 0;
+  opacity: 1;
   color: #dbdbdb;
   justify-content: space-between;
 }
 .navBar > p{
   flex: 0.5;
-  color: #777777;
+  color: #e7a226;
   position: absolute;
   top: 2%;
   left: 5%;
+  z-index: 50;
 } 
 .navBar > p:hover{
-  color: #dbdbdb;
+  color: #ffb62d;
+  cursor: pointer;
 } 
 .navBar > img{
   flex: 0.5;
