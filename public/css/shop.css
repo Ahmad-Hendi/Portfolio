@@ -272,7 +272,7 @@
 }
  .project__image-eight{
     position: absolute;
-    top: 800;
+    top: 900;
     left: 0;
 }
    
@@ -287,17 +287,24 @@
     top: 1000;
     left: 0;
 }
- .project__image-eight{
-    position: absolute;
-    top: 800;
-    left: 0;
-}
+
 .project__image-six {
     position: absolute;
-    top: 3400px;
-    left: 20px;
+    top: 2000px;
+    left: 0px;
 }
-   
+.project__image-seven {
+    position: absolute;
+    top: 2600px;
+    left: 0px;
+}
+.project__image-eight{
+    top: 3150px;
+}
+.project__image-nine {
+    top: 3700px;
+    left: 0px;
+}   
 .project__container-images {
     position: relative;
     height: 450vh;
