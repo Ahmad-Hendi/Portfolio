@@ -254,15 +254,19 @@
 }
 .project__image-one::after {
     font-size: 1.6rem;
+    right: 59%;
 }
 .project__image-three::after {
     font-size: 1.6rem;
+    right: 69%;
 }
 .project__image-four::after {
     font-size: 1.6rem;
+    right: 59%;
 }
 .project__image-five::after {
     font-size: 1.6rem;
+    right: 79%;
 }
 .project__image-six::after {
     font-size: 1.6rem;
