@@ -2,10 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.86 maximum-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="Ahmad" content="Ahmad Hendi @Ahmad Hendi">
     <title>Photography</title>
-    <meta name="Ahmad Hendi" content="Ahmad Hendi @Ahmad Hendi">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, height=device-height"/>
+    <meta name="google-site-verification" content="nnEfAm3RmXrDoA8V59vBDLj3E621RItTB62pXuVHeAQ" />
+    <meta name="description" content="Ahmad Hendi Belgium photographer - discover photography through my lens +32472 29 29 80">
+    <meta name="author" content="Ahmad Hendi">
+
+                                                              <!-- Open Graph start -->
+    <!-- <meta property="fb:app_id‎" content="Ahmad Hendi"> -->
+    <meta property="og:title" content="Belgium Photographer - Ahmad Hendi - Photographer & Videographer">
+    <meta property="og:description" content="Ahmad Hendi Belgium photographer - discover photography through my lens +32472 29 29 80">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.ahmadhendi.com/">
+    <meta property="og:site_name" content="Ahmad Hendi">
+    <meta property="og:image" content="http://www.ahmadhendi.com/public/images/aboutme2.png">
+    <meta property="og:image:alt" content="Ahmad Hendi">
+    <meta property="og:image:width" content="1350">
+    <meta property="og:image:height" content="1080">
+    
+
+
+                                                              <!-- Open Graph end -->
+                                                          <!-- *********************** -->
+                                                              <!-- itemprop start -->
+    <meta itemprop="name" content="Belgium Photographer - Ahmad Hendi - Photographer & Videographer">
+    <meta itemprop="description" content="Ahmad Hendi Belgium photographer - discover photography through my lens +32472 29 29 80">
+    <meta itemprop="image" content="http://www.ahmadhendi.com/public/images/aboutme2.png">
+                                                              <!-- itemprop end -->
+
+                                                                    <!-- metadata end -->
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="../public/css/photography.css" />
@@ -15,79 +45,63 @@
 
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- locomotive-scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
 
-    
+    <script src="https://kit.fontawesome.com/0d2578b465.js" crossorigin="anonymous"></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
 </head>
 
-<body class="home">
+<body id="js-scroll">
     <div class="wrapper">
-        <div class="scrollme"></div>
+
         <div class="GoBack">
-            <a href="/">Home</a>
+            <a href="/photography">previous</a>
         </div>
 
-        <!-- horizontal scroll items -->
-        <div class="container">
-            <div class="container__item container__item-header">
-                <h1>I don’t trust words. <br> I trust pictures.</h1>
+        <!-- project section -->
+        <div class="project__container" data-scroll-section>
+
+            <div class="project__container-title" data-scroll>
+                <h1 class="anime-js-title">Photography</h1>
             </div>
-            <div class="container__item container__item-1" onclick="location.href='/portrait' ">
-                <h1 class="container__item-title">
-                    <a href="/portrait">Portrait </a>
-                </h1>
+            <div class="project__container-subtitle" data-scroll>
+                <p> 📸  Let's Talk Photos  📸</p>
             </div>
-            <div class="container__item container__item-2" onclick="location.href='/wedding' ">
-                <h1 class="container__item-title">
-                    <a href="/wedding">Weddings</a>
-                </h1>
+
+            <div class="project__container-images">
+                <a href="/wedding">
+                    <div class="project__image project__image-one" data-scroll data-scroll-speed="1"></div>
+                </a>
+                <a href="/products">
+                    <div class="project__image project__image-three" data-scrol data-scroll-speed="2"></div>
+                </a>
+                <a href="/portrait">
+                    <div class="project__image project__image-four" data-scroll data-scroll-speed="4"></div>
+                </a>
+                <a href="/events">
+                    <div class="project__image project__image-five" data-scroll data-scroll-speed="3"></div>
+                </a>
+                <a href="/shop">
+                    <div class="project__image project__image-six" data-scroll data-scroll-speed="3"></div>
+                </a>
             </div>
-            <div class="container__item container__item-3" onclick="location.href='/products' ">
-                <h1 class="container__item-title">
-                    <a href="/products">Products</a>
-                </h1>
+
+            <div class="project-next-link" data-scroll>
+                <a href="/">Find me on</a>
             </div>
-            <div class="container__item container__item-4" onclick="location.href='/events' ">
-                <h1 class="container__item-title">
-                    <a href="/events">Events</a>
-                </h1>
-            </div>
-            <div class="container__item container__item-5" onclick="location.href='/shop' ">
-                <h1 class="container__item-title">
-                    <a href="/shop">shop</a>
-                </h1>
+            <div class="socialMedia">
+                <a href="https://www.instagram.com/p/B0LsvcoirYr/" target="blank"> <i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Ahmad-Hendi?tab=repositories"target="blank"> <i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/ahmad-hendi-/" target="blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.ahmadhndi10@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
-
     </div>
 
-    <!-- script -->
-    <script src="../public/js/horizontal-scroll.js"></script>
-    <script>
-        const blocks = document.getElementsByClassName("container__item");
-        const container = document.getElementsByClassName("container");
-        const hs = new HorizontalScroll.default({
-            blocks: blocks,
-            container: container,
-            isAnimated: true,
-            springEffect: 0.8,
-        });
-
-
-        
-
-        // function links() {
-        //     document.addEventListener('click', (e) => {
-        //         e.preventDefault();
-        //         let openLinks = document.querySelector('.container__item-3')
-        //         console.log(openLinks);
-        //         window.location = "";    
-        //     })
-        // }
-
-        // links()
-    </script>
-    <!--load fontawesome-->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="../public/js/horizontal-scroll-script.js"></script>
 </body>
 
 </html>

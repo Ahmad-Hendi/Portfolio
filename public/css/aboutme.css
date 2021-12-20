@@ -351,7 +351,7 @@ body{
   justify-content: center;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   gap: 10px;
   position: relative;
@@ -690,7 +690,7 @@ section .container-contact-me .user .formBx form button {
   }
   .myServices{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
   }
   .myServicesTitle {
@@ -717,7 +717,7 @@ section .container-contact-me .user .formBx form button {
 
   .myServices{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
   }
   .myServicesTitle {
@@ -825,7 +825,7 @@ section .container-contact-me .user .formBx form button {
 
   .myServices{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
   }
   .myServicesTitle {
@@ -923,7 +923,7 @@ section .container-contact-me .user .formBx form button {
     }
     .myServices{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       padding-top: 20px;
     }
     .myServicesTitle {
@@ -1069,7 +1069,7 @@ section .container-contact-me .user .formBx form button {
 
   .myServices{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
     grid-gap: 15%;
   }
