@@ -80,14 +80,7 @@ app.use('/weddingGallery' ,require('./routes/weddingGallery'));
 app.use('/weddingGalleryYassin' ,require('./routes/weddingGalleryYassin'));
 app.use('/weddingGalleryAsli' ,require('./routes/weddingGalleryAsli'));
 app.use('/productDetailsOne' ,require('./routes/productDetailsOne'));
-app.use('/productDetailsTwo' ,require('./routes/productDetailsTwo'));
-app.use('/productDetailsThree' ,require('./routes/productDetailsThree'));
-app.use('/productDetailsFour' ,require('./routes/productDetailsFour'));
-app.use('/productDetailsFive' ,require('./routes/productDetailsFive'));
-app.use('/productDetailsSix' ,require('./routes/productDetailsSix'));
-app.use('/productDetailsSeven' ,require('./routes/productDetailsSeven'));
-app.use('/productDetailsEight' ,require('./routes/productDetailsEight'));
-app.use('/productDetailsNine' ,require('./routes/productDetailsNine'));
+
 app.use(cors())
 
 // app.listen(process.env.PORT || 3000 )
