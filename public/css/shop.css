@@ -128,7 +128,7 @@
     position: relative;
     top: -100px;
     left: -260px;
-    background: url(../images/Shop/LaBourse.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/MontDesArtOne.jpg) no-repeat 50% 50%;
     background-size: cover;
     
 }
@@ -137,7 +137,7 @@
     position: relative;
     top: -350px;
     left: 300px;
-    background: url(../images/Shop/SecretSpotSchaerbeek.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/laekenOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -145,42 +145,42 @@
     position: absolute;
     top: 1000px;
     left: -170px;
-    background: url(../images/Shop/GareDeTrainDeSchaerbeekBalcony.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/GareDeSchaerbeekOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
-.project__image-five {
+/* .project__image-five {
     position: absolute;
     top: 1300px;
     left: 550px;
-    background: url(../images/Shop/GareCentrale.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/SecretSchaerbeekOne.jpg) no-repeat 50% 50%;
     background-size: cover;
-}
+} */
 .project__image-six {
     position: absolute;
     top: 1400px;
     left: -110px;
-    background: url(../images/Shop/GranplaceFlower.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/RoofTopGareCentral.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-seven {
     position: absolute;
     top: 1700px;
     left: 550;
-    background: url(../images/Shop/OrageGrandPlace.jpg) no-repeat 50% 50%;
+    background: url(../images/Shop/SecretSchaerbeekOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-eight {
     position: absolute;
-    top: 2000px;
-    left: 600px;
-    background: url(../images/Shop/DeBrouckerVelo.jpg) no-repeat 50% 50%;
+    top: 2400px;
+    /* left: 600px; */
+    background: url(../images/Shop/GrandPlaceTwo.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-nine {
     position: absolute;
-    top: 18000px;
-    left: 600px;
-    background: url(../images/Shop/FoireLouise.jpg) no-repeat 50% 50%;
+    top: 2900px;
+    /* left: 600px; */
+    background: url(../images/Shop/GrandPlaceOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 /* .project__image-ten {

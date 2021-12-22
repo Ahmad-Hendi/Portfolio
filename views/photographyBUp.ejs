@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.86 maximum-scale=1" />
+    <title>Photography</title>
+    <meta name="Ahmad Hendi" content="Ahmad Hendi @Ahmad Hendi">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../public/css/photography.css" />
+
+    <!-- fav Icon -->
+    <link rel="icon" type="image/png" href="../public/images/logo.png">
+
+    <!-- greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    
+</head>
+
+<body class="home">
+    <div class="wrapper">
+        <div class="scrollme"></div>
+        <div class="GoBack">
+            <a href="/">Home</a>
+        </div>
+
+        <!-- horizontal scroll items -->
+        <div class="container">
+            <div class="container__item container__item-header">
+                <h1>I don’t trust words. <br> I trust pictures.</h1>
+            </div>
+            <div class="container__item container__item-1" onclick="location.href='/portrait' ">
+                <h1 class="container__item-title">
+                    <a href="/portrait">Portrait </a>
+                </h1>
+            </div>
+            <div class="container__item container__item-2" onclick="location.href='/wedding' ">
+                <h1 class="container__item-title">
+                    <a href="/wedding">Weddings</a>
+                </h1>
+            </div>
+            <div class="container__item container__item-3" onclick="location.href='/products' ">
+                <h1 class="container__item-title">
+                    <a href="/products">Products</a>
+                </h1>
+            </div>
+            <div class="container__item container__item-4" onclick="location.href='/events' ">
+                <h1 class="container__item-title">
+                    <a href="/events">Events</a>
+                </h1>
+            </div>
+            <div class="container__item container__item-5" onclick="location.href='/shop' ">
+                <h1 class="container__item-title">
+                    <a href="/shop">shop</a>
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- script -->
+    <script src="../public/js/horizontal-scroll.js"></script>
+    <script>
+        const blocks = document.getElementsByClassName("container__item");
+        const container = document.getElementsByClassName("container");
+        const hs = new HorizontalScroll.default({
+            blocks: blocks,
+            container: container,
+            isAnimated: true,
+            springEffect: 0.8,
+        });
+
+
+        
+
+        // function links() {
+        //     document.addEventListener('click', (e) => {
+        //         e.preventDefault();
+        //         let openLinks = document.querySelector('.container__item-3')
+        //         console.log(openLinks);
+        //         window.location = "";    
+        //     })
+        // }
+
+        // links()
+    </script>
+    <!--load fontawesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+</body>
+
+</html>
