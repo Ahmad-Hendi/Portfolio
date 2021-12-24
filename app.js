@@ -83,6 +83,8 @@ app.use('/productDetailsOne' ,require('./routes/productDetailsOne'));
 app.use('/productDetailsTwo' ,require('./routes/productDetailsTwo'));
 app.use('/productDetailsThree' ,require('./routes/productDetailsThree'));
 app.use('/productDetailsFour' ,require('./routes/productDetailsFour'));
+app.use('/productDetailsFive' ,require('./routes/productDetailsFive'));
+app.use('/productDetailsSix' ,require('./routes/productDetailsSix'));
 
 app.use(cors())
 
