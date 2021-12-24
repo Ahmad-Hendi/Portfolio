@@ -82,6 +82,7 @@ app.use('/weddingGalleryAsli' ,require('./routes/weddingGalleryAsli'));
 app.use('/productDetailsOne' ,require('./routes/productDetailsOne'));
 app.use('/productDetailsTwo' ,require('./routes/productDetailsTwo'));
 app.use('/productDetailsThree' ,require('./routes/productDetailsThree'));
+app.use('/productDetailsFour' ,require('./routes/productDetailsFour'));
 
 app.use(cors())
 
