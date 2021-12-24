@@ -387,9 +387,21 @@ body{
   color: #dbdbdb;
 }
 
-.videography::after {
+/* .videography::after {
   display: grid;
   content: 'videography';
+  place-content: center;
+  position: absolute;
+  top: 110%;
+  text-transform: uppercase;
+  width: 100%;
+  color: #e7a226;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+} */
+.videography::after {
+  display: grid;
+  content: 'WorkShop';
   place-content: center;
   position: absolute;
   top: 110%;

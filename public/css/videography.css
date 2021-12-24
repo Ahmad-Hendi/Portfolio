@@ -38,7 +38,7 @@
 }
 
 .project__container-title h1{
-    color: #fff;
+    color: #e7a226;
     font-family: 'Teko', sans-serif;
     font-size: 140px;
 }
@@ -52,7 +52,7 @@
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 3500px;
+    height: 100vh;
     padding: 40px 0;
 }
 
@@ -62,12 +62,12 @@
     height: 500px;
     margin: 40px auto;
 }
-/* 
+
 .project__image-one {
-    background: url(../images/WeddinOne.jpg) no-repeat 50% 50%;
+    background: url(../images/3dEffect.gif) no-repeat 50% 50%;
     background-size: cover;
 }
-
+/* 
 .project__image-two {
     position: relative;
     top: -100px;
@@ -136,19 +136,25 @@
 
 .project-next-link {
     position: relative;
+    flex-direction: column;
+    font-size: 30px;
     top: -100px;
     width: 100%;
-    height: 400px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .project-next-link a {
-    color: #fff;
+    color: #e7a226;
     text-decoration: none;
     font-family: 'Teko', sans-serif;
-    font-size: 160px;
+    font-size: 70px;
+}
+.project-next-link a:hover {
+    color: #46e726;
+   
 }
 
 .anime-js-title .letter {
@@ -202,7 +208,7 @@
 }
 @media(max-width: 700px) {
    .project-next-link a{
-    font-size: 80px;
+    font-size: 20px;
    }
    .project-next-link {
     top: 70px;
@@ -227,7 +233,11 @@
 }
 @media(max-width: 370px) {
    .project-next-link a{
-    font-size: 55px;
+    font-size: 30px;
+    color: #e7a226;
+   }
+   .project-next-link {
+    font-size: 20px;
    }
 
    .project__image-nine{
@@ -242,7 +252,7 @@
 }
 .project__container-images {
     position: relative;
-    height: 400vh;
+    height: 100vh;
 }
    
 }
