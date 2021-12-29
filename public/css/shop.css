@@ -183,6 +183,14 @@
     background: url(../images/Shop/GrandPlaceOne.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+
+.project__image-ten {
+    position: absolute;
+    background: url(../images/Shop/GrandPlaceReflction.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    top: 3300px;
+}
+
 /* .project__image-ten {
     position: absolute;
     top: 2000px;
@@ -256,6 +264,10 @@
     }
     .project__image-nine {
         top: 3700px;
+        left: 0px;
+    }   
+    .project__image-ten {
+        top: 4200px;
         left: 0px;
     }   
     .project__container-images {
