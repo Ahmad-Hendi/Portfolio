@@ -66,7 +66,7 @@
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 3800px;
+    height: 800vh;
     padding: 40px 0;
 }
 
@@ -77,10 +77,6 @@
     margin: 40px auto;
 }
 
-.project__image-one {
-    background: url(../images/MositbaAndAsel.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
 
 .project__container-images > a {
     text-decoration: none;
@@ -105,82 +101,81 @@
     position: relative;
     mix-blend-mode: difference;
 }
-/* .project__image-one::after {
-    display: flex;
-    position: absolute;
-    right: -4%;
-    bottom: -3%;
-    font-size: 1.9rem;
-    content: "Asel & Mositba";
-    color: #fff;
-    font-family: 'Teko', sans-serif;
-} */
+
+.project__image-one {
+    background: url(../images/Weddings/Mositba&Asal/One.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
 
 .project__image-two {
     position: relative;
     top: -100px;
-    left: -260px;
-    background: url(../images/WeddinTwo.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/Mositba&Asal/Two.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project__image-three {
     position: relative;
-    top: -350px;
-    left: 300px;
-    background: url(../images/Weddings/YassinOne.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/Mositba&Asal/Three.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project__image-four {
     position: relative;
-    top: -200px;
-    left: -300px;
-    background: url(../images/Weddings/Name.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/Mositba&Asal/Four.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-five {
     position: relative;
-    top: 600px;
-    left: -30px;
-    background: url(../images/Weddings/SafiOne.jpg) no-repeat 50% 50%;
+    background: url(../images/Weddings/Mositba&Asal/Five.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-six {
-    position: absolute;
-    top: 3400px;
-    left: 30px;
-    background: url(../images/Weddings/BelgiumWedding.jpg) no-repeat 50% 50%;
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Six.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-seven {
-    position: absolute;
-    top: 2200px;
-    left: 25%;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Seven.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-eight {
-    position: absolute;
-    top: 2700px;
-    left: 250px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Eight.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-nine {
-    position: absolute;
-    top: 2000px;
-    left: -200px;
-    background: url(../images/WeddingSix.jpg) no-repeat 50% 50%;
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Nine.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 .project__image-ten {
-    position: absolute;
-    top: 2200px;
-    left: 500px;
-    background: url(../images/WeddinOne.jpg) no-repeat 50% 50%;
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Ten.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+.project__image-eleven {
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Eleven.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-twelve {
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Twelve.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+/* .project__image-thirten {
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+.project__image-fourtien {
+    position: relative;
+    background: url(../images/Weddings/Mositba&Asal/Ten.jpg) no-repeat 50% 50%;
+    background-size: cover;
+} */
 
 .project-next-link {
     position: relative;
@@ -217,31 +212,36 @@
 }
   
 
-@media(max-width: 900px) {
-    .project__container-title h1 {
-        font-size: 40px;
-    }
+                                                        /* @media query start  */
+                                            /* ******************************************** */
 
+
+                                                        /* screen size 900px start  */
+                                            /* ******************************************** */
+@media(max-width: 900px) {
+    .project__container-images {
+        height: 830vh;
+    }
+    .project__container-title h1 {
+        font-size: 60px;
+    }
     .project__container {
         width: 80%;
     }
-
     .project__container-images {
         width: 100%;
         margin: 0 auto;
     }
-
     .project__image {
         width: 90%;
-    }
-
-    .project__image-one, .project__image-two, .project__image-three, .project__image-four {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    
+    } 
 }
+                                                        /* screen size 900px end  */
+                                            /* ******************************************** */
+
+
+                                                        /* screen size 700px start  */
+                                            /* ******************************************** */                                            
 @media(max-width: 700px) {
    .project-next-link a{
     font-size: 80px;
@@ -250,47 +250,26 @@
     top: 70px;
    }
    .socialMedia {
-
     flex-direction: column;
     font-size: 20px;
-  
-}
-.project__image-nine{
-    position: absolute;
-    top: 1000;
-    left: 0;
-}
- .project__image-eight{
-    position: absolute;
-    top: 800;
-    left: 0;
 }
    
 }
+                                                        /* screen size 700px end  */
+                                            /* ******************************************** */    
+                                            
+                                            
+
+
 @media(max-width: 370px) {
    .project-next-link a{
     font-size: 55px;
    }
 
-   .project__image-nine{
-    position: absolute;
-    top: 1000;
-    left: 0;
-}
- .project__image-eight{
-    position: absolute;
-    top: 800;
-    left: 0;
-}
-.project__image-six {
-    position: absolute;
-    top: 3400px;
-    left: 20px;
-}
-   
 .project__container-images {
-    position: relative;
-    height: 450vh;
+    height: 780vh;
 }
+.project__container-title h1 {
+    font-size: 40px;
 
 }
