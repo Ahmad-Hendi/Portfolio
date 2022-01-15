@@ -73,6 +73,7 @@ app.use('/workshop' ,require('./routes/workshop'));
 app.use('/digital' ,require('./routes/digital'));
 app.use('/portrait' ,require('./routes/portrait'));
 app.use('/wedding' ,require('./routes/wedding'));
+app.use('/pregnant' ,require('./routes/pregnant'));
 app.use('/products' ,require('./routes/products'));
 app.use('/events' ,require('./routes/events'));
 app.use('/shop' ,require('./routes/shop'));
