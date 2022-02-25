@@ -66,7 +66,7 @@
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 4200px;
+    height: 4700px;
     padding: 40px 0;
 }
 
@@ -197,6 +197,13 @@
     top: 3700px;
     left: 2%;
 }
+.project__image-Twelve {
+    position: absolute;
+    background: url(../images/Shop/GrandPlace_makelovenotwar.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    top: 4200px;
+    left: 20%;
+}
 
 
 .project-next-link {
@@ -274,6 +281,10 @@
         top: 4600px;
         left: 0px;
     }   
+    .project__image-Twelve {
+        top: 5200px;
+        left: 0px;
+    }   
     .project__container-images {
         position: relative;
         height: 500vh;
@@ -330,15 +341,16 @@
         top: 3700px;
         left: 0px;
     }   
-    /* .project__image-Eleven {
-        top: 4000px;
+    .project__image-Twelve {
+        top: 5200px;
         left: 0px;
-    }    */
-
+    }   
+    
     .project__container-images {
         position: relative;
-        height: 650vh;
+        height: 710vh
     }
+    
    
 }
 
@@ -382,18 +394,17 @@
     top: 3700px;
     left: 0px;
 }   
-/* .project__image-Eleven {
-    top: 4000px;
+.project__image-Twelve{
+    top: 5200px;
     left: 0px;
-}    */
+}   
+
 .project__container-images {
     position: relative;
-    height: 450vh;
+    height: 710vh
 }
-.project__container-images {
-    position: relative;
-    height: 650vh
-}
+
+
 @media(max-width: 370px) {
    .project-next-link a{
     font-size: 55px;
@@ -427,9 +438,14 @@
     top: 3700px;
     left: 0px;
 }   
+.project__image-Twelve{
+    top: 5200px;
+    left: 0px;
+}   
+
 .project__container-images {
     position: relative;
-    height: 650vh;
+    height: 710vh;
 }
 
 }

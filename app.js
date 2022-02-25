@@ -90,6 +90,7 @@ app.use('/productDetailsSeven' ,require('./routes/productDetailsSeven'));
 app.use('/productDetailsEight' ,require('./routes/productDetailsEight'));
 app.use('/productDetailsNine' ,require('./routes/productDetailsNine'));
 app.use('/productDetailsTen' ,require('./routes/productDetailsTen'));
+app.use('/productDetailsEleven' ,require('./routes/productDetailsEleven'));
 
 app.use(cors())
 
