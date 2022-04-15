@@ -57,6 +57,13 @@
     padding: 40px 0;
 }
 
+.pictureContainer{
+    padding-bottom: 20px;
+}
+.pictureContainer > p{
+    color: red;
+}
+
 .project__image {
     background: red;
     width: 600px;
@@ -70,52 +77,7 @@
     cursor: pointer;
 
 }
-.project__image-one::after {
-    display: flex;
-    position: absolute;
-    right: 75%;
-    font-size: 2.6rem;
-    content: "Weddings";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-three::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    font-size: 2.6rem;
-    content: "Product";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-four::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    font-size: 2.6rem;
-    content: "Portrait";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-five::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    top: 95%;
-    font-size: 2.6rem;
-    content: "Events";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-six::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    font-size: 2.6rem;
-    content: "Shop";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
+
 
 .project__image-one {
     background: url(../images/QuiqSeletionForExbo/AtomiumNationalDay.jpg) no-repeat 50% 50%;
@@ -243,10 +205,7 @@
    
 }
 @media(max-width: 570px) {
-.project__image-one::after {
-    font-size: 2rem;
-    right: 60%;
-}
+
 .project__image-three::after {
     font-size: 2rem;
     right: 59%;
@@ -278,10 +237,7 @@
     position: relative;
     height: 310vh;
 }
-.project__image-one::after {
-    font-size: 1.6rem;
-    right: 59%;
-}
+
 .project__image-three::after {
     font-size: 1.6rem;
     right: 69%;
