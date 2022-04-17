@@ -416,7 +416,7 @@ body{
 }
 .digital::after {
   display: grid;
-  content: 'exhibitions';
+  content: 'exhibition';
   place-content: center;
   position: absolute;
   top: 110%;

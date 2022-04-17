@@ -62,8 +62,8 @@ let myVideographylService = new hoverEffect({
 // digital servicers //
 let myDigitalService = new hoverEffect({
     parent: document.querySelector('.digital'),
-    image1: '../public/images/servicesDigitalOne.jpg',
-    image2: '../public/images/servicesDigitalTwo.jpg',
+    image1: '../public/images/EgliseNotreDameDeLaekenSquare.jpg',
+    image2: '../public/images/NationalDayOnWaalSquare.jpg',
     displacementImage: '../public/images/codeDisplacement.png',
 });
 // setInterval(() => {
