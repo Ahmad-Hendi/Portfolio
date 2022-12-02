@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #375543;
+  height: 100vh;
+
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Kobe", Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 100px;
+  font-size: 70%;
+  z-index: 3;
+}
+
+.site-menu > a {
+  color: #f1d38b;
+}
+
+.site-menu {
+  display: flex;
+}
+
+.menu-item {
+  margin-left: 20px;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 2px solid black; */
+  width: 45%;
+  height: 300px;
+}
+
+.block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.b-1 {
+  background: url("../images/HomePage/SlidesPictures/watcheOne.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-2 {
+  background: url("../images/HomePage/SlidesPictures/food1.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-3 {
+  background: url("../images/HomePage/SlidesPictures/ProductTwo.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-4 {
+  background: url("../images/HomePage/SlidesPictures/ParcCinqTwoFull.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-5 {
+  background: url("../images/HomePage/SlidesPictures/productThree.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-6 {
+  background: url("../images/HomePage/SlidesPictures/TheHotelCouple.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.b-7 {
+  background: url("../images/HomePage/SlidesPictures/AselOne.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  bottom: -10rem;
+  background: #375543;
+}
+
+.title {
+  margin-top: 13rem;
+  text-align: center;
+  font-family: "Canopee";
+  font-size: 1200%;
+  /* font-size: 400%; */
+  color: #f1d38b;
+  overflow: hidden;
+}
+
+.title .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+/* Grid */
+.border{
+  height: 5vh;
+  margin-top: 58%;
+}
+
+
+
+
+/* First the Grid */
+.gallery-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 1.9rem;
+  justify-items: center;
+  margin: 120px;
+  padding: 95px;
+}
+
+/* The Picture Frame */
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: #d9d9d9;
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.gallery-img:hover {
+  opacity: .7;
+}
+
+figcaption {
+  display: flex;
+  font-family: "Canopee";
+  font-size: 190%;
+  justify-content: start;
+  color: #f1d38b;
+  text-decoration: none;
+  margin: 3% 0%;
+}
+#description{
+  color: #dcdcdc;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* Resposive start  */
+
+@media screen and (max-width: 1100px) {
+  .navbar{
+    font-size: 50%;
+  }
+  .menu-item {
+    margin-left: 30px;
+  }
+
+
+  .title {
+    margin-top: 16rem;
+    font-size: 900%;
+  }
+  .container {
+    top: 50%;
+}
+
+  .border{
+    height: 40vh;
+  }
+  
+}
+
+/* ------------------ max-width 1100px end ------------------ */
+/* ------------------ max-width 440 start ------------------ */
+@media screen and (max-width: 720px) {
+  .navbar{
+    font-size: 50%;
+  }
+
+
+  .title {
+    margin-top: 16rem;
+    font-size: 500%;
+  }
+
+  .menu-item {
+    margin-left: 10px;
+  }
+  .border{
+    height: 90vh;
+    margin-top: 58%;
+  }
+
+  .gallery-grid {
+    margin: 50px;
+    padding: 95px 0px 95px 0px;
+}
+
+  
+}
+
+
+/* ------------------ max-width 400 start ------------------ */
+@media screen and (max-width: 420px) {
+  .title {
+    margin-top: 16rem;
+    font-size: 310%;
+  }
+  .container {
+    top: 50%;
+}
+
+  .border{
+    height: 90vh;
+    margin-top: 58%;
+  }
+
+  .gallery-grid {
+    margin: 50px;
+    padding: 95px 0px 95px 0px;
+}
+  .menu-item {
+    margin-left: 5px;
+}
+  
+}
+
+/* ------------------ max-width 400 end ------------------ */
+
+/* ------------------ max-width 380 start ------------------ */
+@media screen and (max-width: 380px) {
+  .navbar{
+    font-size: 20%;
+  }
+  .title {
+    margin-top: 16rem;
+    font-size: 350%;
+  }
+  .container {
+    top: 50%;
+}
+
+  .border{
+    height: 90vh;
+    margin-top: 58%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    margin: 5px;
+ 
+}
+  .menu-item {
+    margin-left: 7px;
+}
+  
+}
+
+/* ------------------ max-width 380 end ------------------ */
+
+/* ------------------ max-width 380 start ------------------ */
+@media screen and (max-width: 303px) {
+  /* .navbar{
+    font-size: 10%;
+  } */
+  .title {
+    margin-top: 16rem;
+    font-size: 220%;
+ 
+  
+}
+}
+
+/* ------------------ max-width 380 end ------------------ */
+
+/* Resposive end  */

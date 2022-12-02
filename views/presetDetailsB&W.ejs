@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preset Details</title>
+    <link rel="stylesheet" href="../public/css/presetDetailsB&W.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left column">
+        <div class="header">
+          <p>Moody Black&White</p>
+          <p>Edit your pictures like a pro</p>
+        </div>
+        <div class="link">
+          <a href="https://buy.stripe.com/4gw8yE6FWfodfmwcMN">Download</a>
+        </div>
+      </div>
+      <div class="right column">
+        <div class="navbar">
+          <div class="site-info">contact</div>
+          <div class="site-menu">
+            <a href="/presets">
+              <div class="menu-item">presete</div>
+            </a>
+            <a href="/Services">
+              <div class="menu-item">services</div>
+            </a>
+          </div>
+        </div>
+        <div class="images">
+          <div class="img-1 img"></div>
+          <div class="img-2 img"></div>
+          <div class="img-3 img"></div>
+          <div class="img-4 img"></div>
+        </div>
+        <div class="header">
+          <h1 class="ml12">Black & White</h1>
+          <p>
+            Cinimatic Black and White preset with a moody feel <br />
+            it's a great way to create your unique <br />
+            style on Instagram.
+          </p>
+          <br />
+          <p>
+            ✓ Mobile version (.DNG files), Desktop version (.XMP)
+            <br />
+            ✓ Compatible with iOS & Android
+            <br />
+            ✓ Easy to adjustment and customize images.
+            <br />
+            <br />
+            <!-- ✓<a href="https://www.instagram.com/ar/1553074951731509/">click here to direct try on your phone</a> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector(".ml12");
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+
+      anime.timeline().add({
+        targets: ".ml12 .letter",
+        translateY: [100, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        easing: "easeOutExpo",
+        duration: 2000,
+        delay: (el, i) => 600 + 60 * i,
+      });
+
+      TweenMax.from(".left", 3, {
+        left: "-100%",
+        ease: Expo.easeInOut,
+        delay: 3.4,
+      });
+      TweenMax.from(".header h1", 3, {
+        left: "-140%",
+        ease: Expo.easeInOut,
+        delay: 3.4,
+      });
+      TweenMax.staggerFrom(
+        ".images > div",
+        1,
+        {
+          y: "60",
+          opacity: 0,
+          ease: Power2.easeOut,
+          delay: 6,
+        },
+        0.2
+      );
+
+      TweenMax.staggerFrom(
+        ".header > p",
+        1,
+        {
+          y: "60",
+          opacity: 0,
+          ease: Power2.easeOut,
+          delay: 5.6,
+        },
+        0.2
+      );
+
+      TweenMax.from(".link", 1, {
+        opacity: 0,
+        ease: SteppedEase.config(1),
+        repeat: -1,
+        repeatDelay: 0.2,
+        delay: 7.8,
+      });
+      TweenMax.from(".navbar", 1, {
+        opacity: 0,
+        ease: Power2.easeOut,
+        delay: 7.8,
+      });
+    </script>
+  </body>
+</html>

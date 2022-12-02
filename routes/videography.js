@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 
 
 router.get('/', (req, res) => {
-  res.render('workshop.ejs')
+  res.render('videography.ejs')
 })
 
           

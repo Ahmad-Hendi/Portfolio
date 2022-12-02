@@ -21,10 +21,10 @@ const userSchema = new mongoose.Schema({
         minlength : [6, chalk.red.bold("Email cant be less than 6 characters")],
         maxlength : [30, chalk.red.bold("Email cant be more than 30 characters")],
     },
-    // message: {
-    //     type: String, 
-    //     required: [true, chalk.red.bold("message is required")]
-    // },
+    message: {
+        type: String, 
+        required: [true, chalk.red.bold("message is required")]
+    },
     registeredAt: { 
         type: Date, 
         index: true 

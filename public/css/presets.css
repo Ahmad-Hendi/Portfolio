@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Canopee";
+  }
+  
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Kobe", Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-size: 70%;
+    z-index: 3;
+  }
+  
+  .site-menu > a {
+    color: #f1d38b;
+    cursor: pointer;
+  }
+  
+  .site-menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    margin-left: 20px;
+  }
+  
+  .loading-screen {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: #f1d38b;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .loading-section {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loading-section .title {
+    margin: 0px 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+  
+  .loading-section .bracket {
+    font-size: 40px;
+    margin: 0px 30px;
+    font-family: "Kenoky";
+  }
+  #loader {
+    font-size: 40px;
+    font-family: "Kenoky";
+  }
+  .loading-images-container {
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: min-content;
+  }
+  .loading-images {
+    width: max-content;
+    height: max-content;
+    margin: 0px 60px;
+    animation: sliding 15s infinite linear;
+  }
+  .welcome-screen{
+    background-color: #375543;
+  }
+  
+  /* animation sliding  */
+  @keyframes sliding {
+    from {
+      transform: translateX(5%);
+    }
+    to {
+      transform: translateX(-30%);
+    }
+  }
+  
+  .loading-images img {
+    height: 100px;
+    margin: 10px 25px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .bottom-section .bottom-line {
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  
+  /* welcome screen  */
+  
+  .welcome-screen {
+    /* padding: 50px; */
+    padding-top: 20px;
+  }
+  .welcome-screen h1 {
+    font-family: "Canopee";
+    padding-top: 5%;
+    padding-left: 40px;
+    font-size: 150px;
+    right: 0;
+    text-align: left;
+    color: #f1d38b;
+  }
+  .welcome-screen p {
+    font-family: "Neutral Face";
+    font-size: 180%;
+    padding-left: 40px;
+    right: 0;
+    text-align: left;
+    word-break: break-word;
+  }
+  span {
+    display: block;
+    overflow: hidden;
+  }
+
+
+/* First the Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 2fr));
+  grid-gap: 2.9rem;
+  justify-items: center;
+  /* margin: 10px; */
+  padding: 55px;
+  background-color: #375543;
+}
+.gallery-grid > a{
+  cursor: pointer;
+}
+
+/* The Picture Frame */
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  /* background-color: rgb(0, 0, 0); */
+  color: #d9d9d9;
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* transition: opacity 0.25s ease-in-out; */
+}
+
+.gallery-img:hover {
+  opacity: .7;
+}
+
+figcaption {
+  display: flex;
+  font-family: "Canopee";
+  font-size: 190%;
+  justify-content: start;
+  color: #f1d38b;
+  text-decoration: none;
+  margin: 3% 0%;
+}
+#description{
+  color: #dcdcdc;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+
+.howTo {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+      "description "
+      "video";
+  grid-template-columns: .6fr 1fr;
+  grid-template-rows: 1fr ;
+}
+.howTo h1{
+  text-align: left;
+  padding-left: 30%;
+  font-size: 3rem;
+
+}
+.description{
+  /* background-color: #f1d38b; */
+  grid-area: "description";
+  display: grid;
+  align-items: center;
+  word-break: break-word;
+  
+}
+.video{
+  /* background-color: blue; */
+  grid-area: "video";
+  
+}
+
+
+
+
+/* Resposive start  */
+
+@media screen and (max-width: 1100px) {
+  .navbar{
+    font-size: 50%;
+  }
+  .menu-item {
+    margin-left: 30px;
+  }
+  .welcome-screen h1 {
+    padding-top: 8%;
+    font-size: 100px;
+  }
+    
+  .welcome-screen p {
+    font-size: 120%;
+  }
+  
+}
+@media screen and (max-width: 720px) {
+  
+  .welcome-screen h1 {
+    padding-top: 15%;
+    font-size: 70px;
+  }
+    
+  .welcome-screen p {
+    font-size: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 560px) {
+  .navbar{
+    /* font-size: 50%; */
+    width: 80%;
+  }
+.welcome-screen h1 {
+  padding-top: 23%;
+  font-size: 50px;
+}
+.gallery-grid {
+  /* margin: 50px; */
+  padding: 95px 0px 95px 0px;
+}
+  
+.welcome-screen p {
+  font-size: 100%;
+}
+  
+}
+
+
+
+/* ------------------ max-width 400 start ------------------ */
+@media screen and (max-width: 420px) {
+
+
+  .gallery-grid {
+    /* margin: 50px; */
+    padding: 20px 0px 60px 0px;
+}
+  .menu-item {
+    margin-left: 5px;
+}
+
+.welcome-screen h1 {
+  padding-top: 23%;
+  padding-left: 10px;
+  font-size: 40px;
+}
+  
+.welcome-screen p {
+  font-size: 80%;
+  padding: 10px;
+}
+.gallery-grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+
+
+}
+.loading-section .bracket {
+  font-size: 20px;
+  margin: 0px 30px;
+}
+.loading-section .title {
+  font-size: 20px;
+}
+#loader {
+  font-size: 20px;
+}
+
+.howTo {
+  grid-template-areas:
+      "description "
+      "video";
+  grid-template-columns: 1fr ;
+  grid-template-rows: .3fr 1fr;
+}
+.howTo h1 {
+ text-align: left;
+ padding-left: 10%;
+ padding-top: 20%;
+}
+
+}
+
+/* ------------------ max-width 400 end ------------------ */
+
+/* ------------------ max-width 380 start ------------------ */
+@media screen and (max-width: 380px) {
+  .navbar{
+    font-size: 20%;
+    width: 80%;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    /* margin: 5px; */
+ 
+}
+  .menu-item {
+    margin-left: 7px;
+}
+  
+}
+

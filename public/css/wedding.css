@@ -1,245 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
-
-
-#js-scroll {
-    background-color: rgb(24 24 24);
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
-/* go back start */
-.GoBack {
-    position: relative;
-    width: 100%;
-    padding-top: 20px;
-    display: grid;
-    place-items: center;
-    font-family: 'Teko', sans-serif;
+html,
+body {
+    background-color: black;
+	padding: 25px;
 }
-.GoBack a {
-    color: rgb(160, 160, 160);
-    font-size: 1.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.GoBack a:hover {
-    color: rgb(245, 245, 245);
-}
-/* go back end */
-
-.project__container {
-    width: 70%;
-    margin: 40px auto;
-    /* border: 1px solid #5c5c5c; */
-    color: #fff;
-    padding: 120px 40px;
-    text-align: center;
-}
-
-.project__container-title h1{
-    color: #fff;
-    font-family: 'Teko', sans-serif;
-    font-size: 140px;
-}
-
-.project__container-subtitle {
-    margin: 20px 0;
-    font-family: "Neue Montreal";
-    font-size: 16px;
-}
-
-#cv{
-    color: rgb(245, 245, 245);
-    font-weight: 500;
-    font-family: 'Teko', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-
-
-}
-
-#cv:hover{
-    color: rgb(233, 127, 201);
-}
-
-.project__container-images {
-    position: relative;
-    width: 100%;
-    height: 450vh;
-    padding: 40px 0;
-}
-
-.project__image {
-    background: red;
-    width: 600px;
-    height: 500px;
-    margin: 40px auto;
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+    border-radius: 15px;
 }
 
 
-.project__container-images > a {
-    text-decoration: none;
-    cursor: pointer;
-
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-#weddingNameLeft {
-    bottom: 3%;
-    font-size: 2rem;
-    color: rgb(83 95 57);
-    right: 32%;
-    position: relative;
-    color: rgb(160, 160, 160);
-    mix-blend-mode: difference;
-}
-#weddingNameRight {
-    bottom: 3%;
-    font-size: 2rem;
-    color: rgb(83 95 57);
-    left: 32%;
-    color: rgb(160, 160, 160);
-    position: relative;
-    mix-blend-mode: difference;
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
-.project__image-one {
-    background: url(../images/Weddings/Mositba&Asal/One.jpg) no-repeat 50% 50%;
-    background-size: cover;
+.grid-wrapper {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
 }
-
-
-.project__image-two {
-    position: relative;
-    top: -100px;
-    background: url(../images/WeddinTwo.jpg) no-repeat 50% 50%;
-    background-size: cover;
+.grid-wrapper .wide {
+	grid-column: span 2;
 }
-
-.project__image-three {
-    position: relative;
-    background: url(../images/Weddings/YassinOne.jpg) no-repeat 50% 50%;
-    background-size: cover;
+.grid-wrapper .tall {
+	grid-row: span 2;
 }
-
-.project__image-four {
-    position: relative;
-    background: url(../images/Weddings/Name.jpg) no-repeat 50% 50%;
-    background-size: cover;
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
 }
-.project__image-five {
-    position: relative;
-    background: url(../images/Weddings/SafiOne.jpg) no-repeat 50% 50%;
-    background-size: cover;
+header{
+	grid-column: span 5;
 }
-.project__image-six {
-    position: relative;
-    background: url(../images/Weddings/WeddingSix.jpg) no-repeat 50% 50%;
-    background-size: cover;
+a {
+	text-decoration: none;
+	color: aliceblue;
 }
-.project__image-seven {
-    position: relative;
-    background: url(../images/Weddings/Pregnant/3.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-.project__image-eight {
-    position: relative;
-    background: url(../images/Weddings/Mositba&Asal/Eight.jpg) no-repeat 50% 50%;
-    background-size: cover;
+   li {
+	list-style: none;
+	padding: 0px 2rem;
 }
 
 
-.project-next-link {
-    position: relative;
-    top: -100px;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
-.project-next-link a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Teko', sans-serif;
-    font-size: 160px;
-}
-
-.anime-js-title .letter {
-    display: inline-block;
-    line-height: 1em;
-}
-
-.socialMedia {
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    margin: 20p;
-    justify-content: center;
-}
-.socialMedia a{
-    color: seashell;
-    margin: 30px;
-}
-  
-
-                                                        /* @media query start  */
-                                            /* ******************************************** */
-
-
-                                                        /* screen size 900px start  */
-                                            /* ******************************************** */
-@media(max-width: 900px) {
-    .project__container-images {
-        height: 400vh;
+@media screen and (max-width: 1200px) {
+	header{
+		grid-column: span 4;
+	}
+  }
+@media screen and (max-width: 900px) {
+	header{
+		grid-column: span 3;
+	}
+  }
+@media screen and (max-width: 600px) {
+    .grid-wrapper > div {
+        grid-column: span 2;
     }
-    .project__container-title h1 {
-        font-size: 60px;
+    .grid-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
     }
-    .project__container {
-        width: 80%;
-    }
-    .project__container-images {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .project__image {
-        width: 90%;
-    } 
-}
-                                                        /* screen size 900px end  */
-                                            /* ******************************************** */
-
-
-                                                        /* screen size 700px start  */
-                                            /* ******************************************** */                                            
-@media(max-width: 700px) {
-    .project__container-images {
-        height: 400vh;
-    }
-   .project-next-link a{
-    font-size: 80px;
-   }
-   .project-next-link {
-    top: 70px;
-   }
-   .socialMedia {
-    flex-direction: column;
-    font-size: 20px;
-}  
-}
-                                                        /* screen size 700px end  */
-                                            /* ******************************************** */    
-                                            
-                                            
-
-@media(max-width: 370px) {
-.project__container-images {
-    height: 400vh;
-}
-   .project-next-link a{
-    font-size: 55px;
-   }
-
-.project__container-title h1 {
-    font-size: 40px;
-
-}
+	header{
+		grid-column: span 2;
+	}
+	li {
+		padding: 0px .7rem;
+	}
+  }

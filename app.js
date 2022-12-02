@@ -65,33 +65,40 @@ app.listen(port, () => {
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
 
-app.use('/', require('./routes/aboutme'));
+app.use('/', require('./routes'));
 app.use('/register' ,require('./routes/register'));
+app.use('/index' ,require('./routes/index'));
+
+// Download starts
 app.use('/navigation' ,require('./routes/navigation'));
-app.use('/photography' ,require('./routes/photography'));
+app.use('/DownloadWarmSand' ,require('./routes/DownloadWarmSand'));
+app.use('/DownloadColdNight' ,require('./routes/DownloadColdNight'));
+app.use('/DownloadBlack&White' ,require('./routes/DownloadBlack&White'));
+app.use('/DownloadCinematic' ,require('./routes/DownloadCinematic'));
+// Download Ends
+
 app.use('/workshop' ,require('./routes/workshop'));
-app.use('/digital' ,require('./routes/digital'));
-app.use('/portrait' ,require('./routes/portrait'));
+
+// Presets start
+app.use('/presets' ,require('./routes/presets'));
+app.use('/presetDetails' ,require('./routes/presetDetails'));
+app.use('/presetDetailsNightOn' ,require('./routes/presetDetailsNightOn'));
+app.use('/presetDetailsSand' ,require('./routes/presetDetailsSand'));
+app.use('/presetDetailsB&W' ,require('./routes/presetDetailsB&W'));
+app.use('/presetDetailsNaturalTone' ,require('./routes/presetDetailsNaturalTone'));
+// Presets End
+
+
+app.use('/myLinks' ,require('./routes/myLinks'));
+
+// Services start
+app.use('/services' ,require('./routes/services'));
+app.use('/photography' ,require('./routes/photography'));
+app.use('/videography' ,require('./routes/videography'));
+
 app.use('/wedding' ,require('./routes/wedding'));
-app.use('/pregnant' ,require('./routes/pregnant'));
 app.use('/products' ,require('./routes/products'));
-app.use('/events' ,require('./routes/events'));
-app.use('/shop' ,require('./routes/shop'));
-app.use('/weddingGallery' ,require('./routes/weddingGallery'));
-app.use('/weddingGalleryYassin' ,require('./routes/weddingGalleryYassin'));
-app.use('/weddingGalleryAsli' ,require('./routes/weddingGalleryAsli'));
-app.use('/productDetailsOne' ,require('./routes/productDetailsOne'));
-app.use('/productDetailsTwo' ,require('./routes/productDetailsTwo'));
-app.use('/productDetailsThree' ,require('./routes/productDetailsThree'));
-app.use('/productDetailsFour' ,require('./routes/productDetailsFour'));
-app.use('/productDetailsFive' ,require('./routes/productDetailsFive'));
-app.use('/productDetailsSix' ,require('./routes/productDetailsSix'));
-app.use('/productDetailsSeven' ,require('./routes/productDetailsSeven'));
-app.use('/productDetailsEight' ,require('./routes/productDetailsEight'));
-app.use('/productDetailsNine' ,require('./routes/productDetailsNine'));
-app.use('/productDetailsTen' ,require('./routes/productDetailsTen'));
-app.use('/productDetailsEleven' ,require('./routes/productDetailsEleven'));
+// Services end
+
 
 app.use(cors())
-
-// app.listen(process.env.PORT || 3000 )

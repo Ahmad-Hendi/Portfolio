@@ -1,115 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkShop</title>
-    <meta name="Ahmad" content="Ahmad Hendi @Ahmad Hendi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <meta name="Ahmad" content="Ahmad Hendi @Ahmad Hendi" />
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="../public/css/videography.css" />
 
     <!-- fav Icon -->
-    <link rel="icon" type="image/png" href="../public/images/logo.png">
+    <link rel="icon" type="image/png" href="../public/images/logo.png" />
 
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <!-- locomotive-scroll -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css"
+    />
 
-    <script src="https://kit.fontawesome.com/0d2578b465.js" crossorigin="anonymous"></script> 
+    <script
+      src="https://kit.fontawesome.com/0d2578b465.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
-</head>
+  </head>
 
-<body id="js-scroll">
-    <div class="wrapper">
-        <div class="GoBack">
-            <a href="/">Home</a>
-        </div>
-
-        <!-- project section -->
-        <div class="project__container" data-scroll-section>
-
-            <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">WorkShop</h1>
-            </div>
-            <div class="project__container-subtitle" data-scroll>
-                <p>Want to learn how to master your camera? Start on a good basis? <br>
-                   <br>
-                    I offer several course options, workshops focused on one day,  private courses, film photography and even more ...
-                </p>
-            </div>
-
-            <div class="project__container-images">
-               
-                <div class="project__image project__image-one" data-scroll data-scroll-speed="1">
-                </div>
-                <!-- <div class="project__image project__image-two" data-scroll data-scroll-speed="4">
-                </div>
-                <div class="project__image project__image-three" data-scrol data-scroll-speed="2">
-                </div>
-                <div class="project__image project__image-four" data-scroll data-scroll-speed="4">
-                </div>
-                <div class="project__image project__image-five" data-scroll data-scroll-speed="3">
-                </div>
-                <div class="project__image project__image-six" data-scroll data-scroll-speed="4">
-                </div>
-                <div class="project__image project__image-seven" data-scroll data-scroll-speed="2">
-                </div>
-                <div class="project__image project__image-eight" data-scroll data-scroll-speed="1">
-                </div>
-                <div class="project__image project__image-nine" data-scroll data-scroll-speed="4">
-                </div>
-                <div class="project__image project__image-ten" data-scroll data-scroll-speed="4">
-                </div> -->
-            </div>
-            
-            <div>
-                <p>
-                    In this course I will teach you how to master your camera. after more than five years of experience in photography & videography, I will explain to you how to avoid many mistakes that you can make as an amateur or professional photographer <br> I will show you also how I take my pictures (some secrets 😉).
-                    <!-- <hr> -->
-                    <br>
-                    <br>
-                    <br>
-                    This course will need an entire day, there will be between 2 and 3 hours theoretical explanation and the rest of the day is practical.
-                    <br>
-                    For the practical, we will go to different places with different lightings condition, we will apply some examples to people as well.
-                    I will make sure to show you different photography styles.
-                    <br>
-                    <br>
-                    <br>
-                    The total cost of this course is <span style="text-decoration: line-through; color: #7e550a;">375€ </span> .
-                    <br>
-                    <br>
-                    <span style="color: #e7a226;">New Price,</span> as it's my first workshop I am offering it for <span style="color: #e7a226;">225€</span>
-                </p>
-            </div>
-                  
-        
-            <div class="project-next-link" data-scroll>
-                <h3>Ready to take your photography to the next level ? 📸</h3>
-                click here 👇
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7mQNI0zRz6kDsLixqmOaI-_KbkNsPUtyZ_zGkqKPx3lNDgw/viewform"> <span style="text-decoration: underline;">  Yes, I am in</span></a>
-                <hr>
-                <hr>
-                Any question ? <br>
-                <a href="mailto:info@ahmadhendi.com">click here 📧</a>
-            </div>
-            <div class="socialMedia">
-                <a href="https://www.instagram.com/p/B0LsvcoirYr/" target="blank"> <i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/Ahmad-Hendi?tab=repositories"target="blank"> <i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/ahmad-hendi-/" target="blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.ahmadhndi10@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
+  <body>
+    <div class="grid-wrapper">
+      <header>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/presets">Presets</a></li>
+          <li><a href="/services">services</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </header>
+      <div class="info">
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet 
+          aliquam est, id non eaque voluptate, voluptatem at ipsa quidem 
+          fuga amet praesentium quos totam ullam, aspernatur ipsum deleniti nostrum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet 
+          aliquam est, id non eaque voluptate, voluptatem at ipsa quidem 
+          fuga amet praesentium quos totam ullam, aspernatur ipsum deleniti nostrum.
+        </p> -->
+      </div>
+      <div class="tall">
+        <video muted playsinline  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/1.mov" type="video/mp4"></source>
+        </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/2.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/3.mov" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/4.mov" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/5.mov" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/6.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/7.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/8.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/9.mp4.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/10.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/11.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/12.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/Hp One.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/14.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/15.mov" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/16.mov" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/17.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/18.mov" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/19.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+  
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/20.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/21.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/22.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/23.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/24.mov" type="video/mp4"></source>
+          </video>
+      </div>
+      <div class="tall">
+        <video muted playsinline autoplay onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+          <source src="../public/images/Services/Videography/25.mp4" type="video/mp4"></source>
+          </video>
+      </div>
+  
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="../public/js/horizontal-scroll-script.js">
-        
-    </script>
-</body>
-
+  </body>
 </html>

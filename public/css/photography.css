@@ -1,287 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-#js-scroll {
-    background-color: rgb(24 24 24);
+body{
+    background: #375543;
+}
+
+img{
+    width: 90%;
+    border: 2px solid black;
+}
+
+p{
+    padding: 1rem 2.5rem;
+}
+h3{
+    margin: 1rem auto;
+    font-size: 3rem;
+    color: #f1d38b;
+    font-family: "Canopee";
+    font-weight: 100;
+}
+
+a {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem auto;
+    text-decoration: none;
+    color: black;
+}
+
+   li {
+	list-style: none;
+	padding: 0px 2rem;
 }
 
 
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
 
-/* go back start */
-.GoBack {
-    position: relative;
-    width: 100%;
-    padding-top: 20px;
+
+.container{
     display: grid;
-    place-items: center;
-    font-family: 'Teko', sans-serif;
-}
-.GoBack a {
-    color: rgb(160, 160, 160);
-    font-size: 1.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.GoBack a:hover {
-    color: #ffa600;
-}
-/* go back end */
-
-.project__container {
-    width: 70%;
-    margin: 40px auto;
-    color: #fff;
-    padding: 120px 40px;
-    text-align: center;
-}
-
-.project__container-title h1{
-    color: #ffa600;
-    font-family: 'Teko', sans-serif;
-    font-size: 140px;
-}
-
-.project__container-subtitle {
-    margin: 20px 0;
-    font-family: "Neue Montreal";
-    font-size: 16px;
-}
-
-
-
-.project__container-images {
-    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 90px auto;
+    height: 100vh;
     width: 100%;
-    height: 3000px;
-    padding: 40px 0;
+    margin: 0 auto;
 }
 
-.project__image {
-    background: red;
-    width: 600px;
-    height: 500px;
-    margin: 40px auto;
+header{
+    /* background-color: aqua; */
+    grid-column-start: span 3;
 }
 
-
-.project__container-images > a {
-    text-decoration: none;
-    cursor: pointer;
-
-}
-.project__image-one::after {
+.products{
+    /* background: blue; */
+    grid-column-start: span 1;
     display: flex;
-    position: absolute;
-    right: 75%;
-    font-size: 2.6rem;
-    content: "Weddings";
-    color: #fff;
-    font-family: 'Neue Montreal';
 }
-.project__image-three::after {
+.weddings{
+    /* background: rgb(2, 190, 21); */
+    grid-column-start: span 2;
     display: flex;
-    position: absolute;
-    right: 86%;
-    font-size: 2.6rem;
-    content: "Product";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-four::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    font-size: 2.6rem;
-    content: "Portrait";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-five::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    top: 95%;
-    font-size: 2.6rem;
-    content: "Events";
-    color: #fff;
-    font-family: 'Neue Montreal';
-}
-.project__image-six::after {
-    display: flex;
-    position: absolute;
-    right: 86%;
-    font-size: 2.6rem;
-    content: "Shop";
-    color: #fff;
-    font-family: 'Neue Montreal';
+
 }
 
-.project__image-one {
-    background: url(../images/PhotographyTypes/Weddings.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-
-.project__image-three {
-    position: relative;
-    top: 2px;
-    left: 30px;
-    background: url(../images/PhotographyTypes/Products.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project__image-four {
-    position: relative;
-    top: 0px;
-    left: 7px;
-    background: url(../images/PhotographyTypes/Portrait.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-.project__image-five {
-    position: relative;
-    top: 0px;
-    left: 30px;
-    background: url(../images/PhotographyTypes/Events.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-.project__image-six {
-    position: relative;
-    top: 0px;
-    left: 7px;
-    background: url(../images/Shop/ProductDetails/ProductDetailsSeven/GrandPlaceTwo.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project-next-link {
-    position: relative;
-    top: -100px;
+.img-container {
     width: 100%;
-    height: 400px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-.project-next-link a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Teko', sans-serif;
-    font-size: 160px;
-}
 
-.anime-js-title .letter {
-    display: inline-block;
-    line-height: 1em;
-}
 
-.socialMedia {
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    margin: 20p;
-    justify-content: center;
-}
-.socialMedia a{
-    color: seashell;
-    margin: 30px;
-}
-  
-
-@media(max-width: 900px) {
-    .project__container-title h1 {
-        font-size: 40px;
+@media only screen and (max-width: 620px) {
+    .container{
+       grid-template-columns: 1fr;
+       grid-template-rows: 40px auto auto;
     }
-
-    .project__container {
-        width: 80%;
+    header.products.weddings{
+        grid-column-start: span 1;
     }
-
-    .project__container-images {
-        width: 100%;
-        margin: 0 auto;
+    .weddings {
+        grid-column-start: span 3;
     }
-
-    .project__image {
-        width: 90%;
+    h3{
+        font-size: 2rem;
+        margin: 0rem auto;
     }
-
-    .project__image-one, .project__image-two, .project__image-three, .project__image-four {
-        position: relative;
-        top: 0;
-        left: 0;
+    img{
+        margin: .5rem auto;
+    }
+    p{
+        font-size: 1rem;
     }
     
-}
-@media(max-width: 700px) {
-   .project-next-link a{
-    font-size: 80px;
-   }
-   .project-next-link {
-    top: 70px;
-   }
-   .socialMedia {
-    flex-direction: column;
-    font-size: 20px;
-  
-}
-
-   
-}
-@media(max-width: 570px) {
-.project__image-one::after {
-    font-size: 2rem;
-    right: 60%;
-}
-.project__image-three::after {
-    font-size: 2rem;
-    right: 59%;
-}
-.project__image-four::after {
-    font-size: 2rem;
-    right: 69%;
-}
-.project__image-five::after {
-    font-size: 2rem;
-    right: 49%;
-}
-.project__image-six::after {
-    font-size: 2rem;
-}
-
-}
-@media(max-width: 370px) {
-   .project-next-link a{
-    font-size: 55px;
-   }
-
-.project__image-six {
-    position: relative;
-    left: 20px;
-}
-   
-.project__container-images {
-    position: relative;
-    height: 310vh;
-}
-.project__image-one::after {
-    font-size: 1.6rem;
-    right: 59%;
-}
-.project__image-three::after {
-    font-size: 1.6rem;
-    right: 69%;
-}
-.project__image-four::after {
-    font-size: 1.6rem;
-    right: 59%;
-}
-.project__image-five::after {
-    font-size: 1.6rem;
-    right: 79%;
-}
-.project__image-six::after {
-    font-size: 1.6rem;
-}
-
-}
+	li {
+		padding: 0px .7rem;
+	}
+  }
