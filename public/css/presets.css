@@ -191,6 +191,14 @@ figcaption {
   text-decoration: none;
   margin: 3% 0%;
 }
+
+h2 {
+  text-align: left;
+  font-size: 2rem;
+  padding-left: 10rem;
+  color: greenyellow;
+}
+
 #description{
   color: #dcdcdc;
   text-align: left;
@@ -261,6 +269,10 @@ a{
   .welcome-screen p {
     font-size: 100%;
   }
+  h2 {
+    padding-left: 5rem;
+  }
+  
   
 }
 
