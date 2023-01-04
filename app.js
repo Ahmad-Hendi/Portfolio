@@ -102,7 +102,7 @@ app.use('/products' ,require('./routes/products'));
 
 // Gallery start
 app.use('/RoyalPalaceOne' ,require('./routes/RoyalPalaceOne'));
-app.use('/RoyalPalace2023' ,require('./routes/RoyalPalace2023'));
+app.use('/TheBelgianMonarchy' ,require('./routes/TheBelgianMonarchy'));
 app.use('/AtomiumNewYear' ,require('./routes/AtomiumNewYear'));
 app.use('/AtomiumNewYear2019' ,require('./routes/AtomiumNewYear2019'));
 // Gallery end

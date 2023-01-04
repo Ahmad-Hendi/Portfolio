@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 
 
 router.get('/', (req, res) => {
-  res.render('RoyalPalace2023.ejs')
+  res.render('TheBelgianMonarchy.ejs')
 })
 
           
