@@ -1,0 +1,12 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-family: "Canopee";
+}
+p, span, button {
+    font-family: "Neutral Face";
+}

@@ -100,5 +100,24 @@ app.use('/wedding' ,require('./routes/wedding'));
 app.use('/products' ,require('./routes/products'));
 // Services end
 
+// Gallery start
+app.use('/RoyalPalaceOne' ,require('./routes/RoyalPalaceOne'));
+app.use('/RoyalPalace2023' ,require('./routes/RoyalPalace2023'));
+app.use('/AtomiumNewYear' ,require('./routes/AtomiumNewYear'));
+app.use('/AtomiumNewYear2019' ,require('./routes/AtomiumNewYear2019'));
+// Gallery end
+
+
+// Download Gallery start
+app.use('/DownloadRoyalPalace' ,require('./routes/DownloadRoyalPalace'));
+app.use('/DownloadTheBelgianMonarchy' ,require('./routes/DownloadTheBelgianMonarchy'));
+app.use('/DownloadTheAtomsForPeace' ,require('./routes/DownloadTheAtomsForPeace'));
+app.use('/DownloadAtomium' ,require('./routes/DownloadAtomium'));
+
+
+
+
+// Download Gallery end 
+
 
 app.use(cors())
