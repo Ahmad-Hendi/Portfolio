@@ -1,0 +1,4 @@
+*.psd
+*.pdf
+/spec
+/docs
