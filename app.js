@@ -120,4 +120,8 @@ app.use('/DownloadAtomium' ,require('./routes/DownloadAtomium'));
 // Download Gallery end 
 
 
+// Photographyworkshop start
+app.use('/Photographyworkshop' ,require('./routes/Photographyworkshop'));
+
+
 app.use(cors())
