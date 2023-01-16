@@ -2,3 +2,4 @@
 *.pdf
 /spec
 /docs
+/app/node_modules
