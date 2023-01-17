@@ -1,5 +1,8 @@
+node_modules/
+.git/
+.gitignore
+.DS_Store
+*.log
+*.swp
 *.psd
 *.pdf
-/spec
-/docs
-/app/node_modules
