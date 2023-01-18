@@ -1,0 +1,626 @@
+@import url('https://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ececec;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+}
+img{
+    
+    
+}
+#hero-img{
+    border: 2px solid black;
+    max-width: 420px;
+}
+
+video{
+    width: 90%;
+    border: 2px solid black;
+}
+
+p{
+    padding: 1rem 2.5rem;
+}
+h3{
+    margin: 1rem auto;
+    font-size: 3rem;
+    color: #000000;
+    font-family: "Canopee";
+    font-weight: 100;
+}
+
+a {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem auto;
+    text-decoration: none;
+    color: black;
+}
+
+   li {
+	list-style: none;
+	padding: 0px 2rem;
+}
+
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 90px auto;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    /* background-color: aqua; */
+    grid-column-start: span 3;
+}
+
+.photography{
+    /* background: blue; */
+    grid-column-start: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+.WorkShop-info {
+    margin-top: 15%;
+    text-align: center;
+    /* background: blue; */
+    grid-column-start: span 3;
+    /* display: flex; */
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 20%;
+}
+
+.WorkShop-info > .title > p{
+    max-width: 70%; 
+    margin: auto;
+}
+
+.examples {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100% auto auto auto auto auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background: red; */
+}
+
+.ex-img1{
+    width: 20%;
+}
+
+.exs{
+    max-width: 70%;
+}
+
+
+.WorkShop-info .title h1 {
+    /* background-color: red; */
+    padding-top: 10%;
+    font-family: "Canopee";
+    font-size: 7rem;
+    font-weight: 100;
+    
+}
+
+
+.img-container {
+    padding-top: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-container::before {
+    display: block;
+    content: "let't unlock togeather the next level of possibilities";
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 500;
+}
+.img-container::after {
+    display: block;
+    content: "workshop";
+    font-family: "Canopee";
+    text-align: center;
+    position: absolute;
+    font-size: 18rem;
+    bottom: -20%;
+    font-weight: 100;
+
+}
+
+
+#loaction-img{
+    max-width: 30%;
+}
+
+.Practical-information{
+    display: grid;
+    place-items: center;
+    grid-column: span 3;
+    /* background: red; */
+    height: 100vh;
+    margin-bottom: 40%;
+}
+.Practical-information::before{
+    display: block;
+    content: "where & when ?";
+    position: relative;
+    top: 98%;
+    font-size: 7rem;
+    font-family: "Canopee";
+    font-weight: 100;
+}
+.adressandtime > p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+
+.Inscription{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/WorkShop/BGMetroH.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.Inscription > h3{
+   color: #ececec;
+   position: absolute;
+   left: 2%;
+   top: 1%;
+   max-width: 40%;
+}
+.Inscription > p{
+   color: #ececec;
+   position: absolute;
+   left: 2%;
+   top: 17%;
+   max-width: 40%;
+   padding: 0;
+   margin: 0;
+   color: yellow;
+   font-family: 'Avenir Next LT Pro', sans-serif;
+   font-weight: 400;
+}
+
+.Inscription > a{
+   color: #ececec;
+   position: absolute;
+   left: 2%;
+   bottom: 7%;
+   max-width: 40%;
+   padding: 0;
+   margin: 0;
+   color: yellow;
+   font-family: 'Avenir Next LT Pro', sans-serif;
+   font-weight: 300;
+   justify-content: left;
+   text-decoration: underline;
+   font-size: 3rem;
+}
+
+#question{
+    position: absolute;
+    left: 1%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*  ________________________________________  @mediaquery start   ________________________________________ */
+
+
+@media only screen and (max-width: 1200px) {
+
+    header {
+        padding-top: 5%;
+    }
+
+    .img-container::after {
+    font-size: 16rem;
+    bottom: -20%;
+}
+
+
+.WorkShop-info .title h1 {
+    font-size: 5rem;
+}
+  }
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+
+    .img-container::after {
+    font-size: 11rem;
+    bottom: -13%;
+}
+.Inscription > h3{
+    max-width: 60%;
+ }
+
+  }
+  
+@media only screen and (max-width: 700px) {
+
+header {
+    padding-top: 5%;
+}
+
+.img-container::after { 
+font-size: 7rem;
+bottom: -10%;
+}
+
+/* new sectoion Inscription */
+
+
+.Inscription{
+    background-image: url("../images/WorkShop/BGMetroV.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.Inscription > h3 {
+    max-width: 70%;
+    font-size: 2.8rem;
+}
+.Inscription > p {  
+    font-size: 0.9rem;
+  
+
+}
+.Inscription > a {
+    font-size: 2rem;
+    bottom: 50%;
+    max-width: 60%;
+    
+}
+
+/* .Inscription > h3 {
+    transform: rotate(90deg);
+    top: 15%;
+    right: -80%;
+    position: absolute;
+    max-width: 100%;
+    font-size: 1.5rem;
+    max-width: 73%;
+}
+.Inscription > p {
+    transform: rotate(90deg);
+    top: 13%;
+    right: -8%;
+    left: 36%;
+    position: absolute;
+    max-width: 100%;
+
+    font-size: .7rem;
+    max-width: 69%;
+} */
+
+
+
+
+
+
+
+/* New section starts .Practical-information */
+
+
+.Practical-information::before {
+    font-size: 4rem;
+}
+
+
+/* New section starts Inscription */
+
+/* .Inscription {
+    margin-top: 26%;
+}
+
+.left-side > .TheLink {
+    width: 61%;
+    height: 40%;
+    padding-top: 5rem;
+}
+.left-side > .theTitle h3 { 
+    font-size: 2rem;
+}
+.left-side > p {
+    max-width: 95%;
+} */
+
+  }
+
+
+
+  @media only screen and (max-width: 580px) {
+    .Inscription > h3{
+        max-width: 90%;
+        font-size: 1.9rem;
+    }
+    .Inscription > p{
+        max-width: 90%;
+        font-size: .9rem;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+.left-side > p {
+    position: relative;
+    left: 4%;
+    top: 11%;
+    font-size: 0.6rem;
+    transform: rotate(90deg);
+}
+
+
+
+
+  
+
+/* _________________________________ Phone start  _________________________________ */
+
+@media only screen and (max-width: 400px) {
+    header {
+        padding-top: 30%;
+    }
+
+    .img-container {
+        padding-top: 339px;
+    }
+
+    .img-container::before {
+        position: relative;
+        font-size: 1rem;
+        bottom: 20%;
+    }
+
+    #hero-img {
+        max-width: 250px;
+    }
+
+    .img-container::after {
+        position: absolute;
+        font-size: 4rem;
+        bottom: -3%;
+
+    }
+
+
+
+/* -------------------------- new section .WorkShop-info start -------------------------- */
+
+
+.WorkShop-info  {
+    margin-bottom: 20%;
+}
+
+.WorkShop-info .title h1 {
+    padding-top: 15%;
+    font-family: "Canopee";
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+
+.WorkShop-info > .title > p {
+    max-width: 90%;
+    margin: auto;
+    font-size: .8rem;
+}
+
+.examples {
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 46% auto auto auto auto auto;
+    justify-content: center;
+}
+
+.exs {
+    max-width: 66%;
+}
+
+
+
+
+
+
+/* -------------------------- new section start -------------------------- */
+
+.Practical-information::before {
+    top: 98%;
+    font-size: 3rem;
+    font-weight: 100;
+}
+#loaction-img {
+    max-width: 70%;
+}
+
+
+
+/* -------------------------- new section start -------------------------- */
+
+
+.Inscription > h3 {
+    max-width: 70%;
+    font-size: 1.8rem;
+}
+.Inscription > p {  
+    top: 16%;
+    font-size: 0.7rem;
+    max-width: 60%;
+  
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+    header {
+        padding-top: 58%;
+    }
+
+
+    li {
+        list-style: none;
+        width: 100%;
+        padding: 0px;
+    }
+
+
+    /* New sectio starts  */
+    .img-container {
+        padding-top: 400px;
+    }
+
+
+
+    .img-container::before {
+
+        font-size: 0.7rem;
+        bottom: 40%;
+    }
+
+    #hero-img {
+        max-width: 210px;
+    }
+
+    .img-container::after {
+        font-size: 3rem;
+        bottom: -3%;
+    }
+
+
+
+
+
+    .WorkShop-info .title h1 {
+        font-size: 2rem;
+        margin-bottom: 5%;
+        margin-top: 12%;
+    
+    }
+
+    .WorkShop-info > .title > p {
+        padding: 5% 1px;
+        font-size: .9rem;
+    }
+
+
+/* New section starts */
+
+.Practical-information::before {
+    font-size: 1.5rem;
+}
+
+.adressandtime > p {
+    font-size: 1rem;
+}
+
+
+
+.right-side > img {
+    transform: rotate(90deg) translateX(44px);
+    width: 81%;
+}
+
+
+
+
+
+
+
+.left-side > p {
+    position: relative;
+    left: 4%;
+    top: 11%;
+    font-size: 0.6rem;
+    transform: rotate(90deg);
+}
+
+
+/* .left-side > .TheLink {
+    transform: rotate(0deg);
+    padding-left: 5%;
+    width: 40%;
+} */
+
+
+
+/* _______________________ New sectio starts _______________________ */
+
+.Inscription > h3 {
+    max-width: 100%;
+    font-size: 1.3rem;
+}
+
+.Inscription > p {
+    top: 9%;
+}
+
+.Inscription > a {
+    font-size: 1rem;
+    bottom: 41%;
+}
+
+
+
+
+  }
+
+
+
+
+
