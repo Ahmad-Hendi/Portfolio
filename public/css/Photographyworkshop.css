@@ -11,10 +11,7 @@ body{
     background: #ececec;
     font-family: 'Avenir Next LT Pro', sans-serif;
 }
-img{
-    
-    
-}
+
 #hero-img{
     border: 2px solid black;
     max-width: 420px;
@@ -313,58 +310,13 @@ bottom: -10%;
     
 }
 
-/* .Inscription > h3 {
-    transform: rotate(90deg);
-    top: 15%;
-    right: -80%;
-    position: absolute;
-    max-width: 100%;
-    font-size: 1.5rem;
-    max-width: 73%;
-}
-.Inscription > p {
-    transform: rotate(90deg);
-    top: 13%;
-    right: -8%;
-    left: 36%;
-    position: absolute;
-    max-width: 100%;
-
-    font-size: .7rem;
-    max-width: 69%;
-} */
-
-
-
-
-
-
-
 /* New section starts .Practical-information */
-
 
 .Practical-information::before {
     font-size: 4rem;
 }
 
 
-/* New section starts Inscription */
-
-/* .Inscription {
-    margin-top: 26%;
-}
-
-.left-side > .TheLink {
-    width: 61%;
-    height: 40%;
-    padding-top: 5rem;
-}
-.left-side > .theTitle h3 { 
-    font-size: 2rem;
-}
-.left-side > p {
-    max-width: 95%;
-} */
 
   }
 
@@ -589,14 +541,6 @@ bottom: -10%;
     font-size: 0.6rem;
     transform: rotate(90deg);
 }
-
-
-/* .left-side > .TheLink {
-    transform: rotate(0deg);
-    padding-left: 5%;
-    width: 40%;
-} */
-
 
 
 /* _______________________ New sectio starts _______________________ */
