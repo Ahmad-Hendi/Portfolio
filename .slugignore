@@ -1,7 +1,7 @@
 node_modules
 spec
 doc
-/app/.heroku
+heroku
 .git
 .gitignore
 .DS_Store
