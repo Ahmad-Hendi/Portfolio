@@ -1,8 +1,7 @@
 node_modules
 spec
 doc
-heroku
-public
+/app/heroku
 .git
 .gitignore
 .DS_Store
@@ -11,4 +10,5 @@ public
 *.psd
 *.pdf
 *.heroku
+
 
