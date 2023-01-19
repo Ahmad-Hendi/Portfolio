@@ -62,7 +62,7 @@ app.listen(port, () => {
 })
 
 
-app.use('/public', express.static(path.join(__dirname, 'public')))
+app.use('/public', express.static(path.join(__dirname, '/public')))
 
 
 app.use('/', require('./routes'));
@@ -99,6 +99,7 @@ app.use('/videography' ,require('./routes/videography'));
 app.use('/wedding' ,require('./routes/wedding'));
 app.use('/products' ,require('./routes/products'));
 // Services end
+
 
 // Gallery start
 app.use('/RoyalPalaceOne' ,require('./routes/RoyalPalaceOne'));

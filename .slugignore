@@ -1,8 +1,6 @@
 node_modules
 spec
-features
 doc
-public
 .git
 .gitignore
 .DS_Store
