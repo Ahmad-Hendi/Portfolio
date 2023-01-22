@@ -125,4 +125,10 @@ app.use('/DownloadAtomium' ,require('./routes/DownloadAtomium'));
 app.use('/Photographyworkshop' ,require('./routes/Photographyworkshop'));
 
 
+
+
+
+app.use('/digital' ,require('./routes/digital'));
+
+
 app.use(cors())
