@@ -33,22 +33,22 @@ app.use(bodyParser.json());
 
 
 // Connecting to MongoDB
-const mongooseURI = process.env.DB_URI;
+// const mongooseURI = process.env.DB_URI;
 
-mongoose.connect(mongooseURI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-  useCreateIndex: true
-});
+// mongoose.connect(mongooseURI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useFindAndModify: false,
+//   useCreateIndex: true
+// });
 
-mongoose.connection.on('connected', (error) => {
-    if (error) {
-        console.log(error)
-    }else {
-        console.log(chalk.cyan.bold('DB connected'))
-    }
-})
+// mongoose.connection.on('connected', (error) => {
+//     if (error) {
+//         console.log(error)
+//     }else {
+//         console.log(chalk.cyan.bold('DB connected'))
+//     }
+// })
 
 
 
@@ -128,7 +128,7 @@ app.use('/Photographyworkshop' ,require('./routes/Photographyworkshop'));
 
 
 
-app.use('/digital' ,require('./routes/digital'));
+app.use('/Gallery' ,require('./routes/Gallery'));
 
 
 app.use(cors())

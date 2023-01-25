@@ -1,0 +1,143 @@
+
+@import url('https://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    height: 100vh;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10%;
+  }
+
+  
+  .header h1{
+      font-size: 15rem;
+      font-weight: 100;
+      margin: 0;
+  }
+
+  nav{
+    grid-column-start: span 3;
+}
+
+  a {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem auto;
+    text-decoration: none;
+    color: black;
+}
+
+   li {
+	list-style: none;
+	padding: 0px 2rem;
+    padding: 1.7%;
+}
+
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+    padding: .1%;
+    margin-top: 0px;
+}
+
+    
+ .info {
+      max-width: 100%;
+      text-align: center;
+      margin: 13% 10%;
+  }
+
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 10%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .column > h3{
+    font-size: 2rem;
+    font-family: "Canopee";
+    text-align: center;
+    margin-top: -5%;
+  }
+.column > p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -2.7%;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    .header h1{
+        font-size: 9rem;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .header h1{
+        font-size: 7rem;
+    }
+
+
+    
+
+
+
+  
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 200px) {
+    .header h1{
+        font-size: 1rem;
+    }
+
+    .info > p{
+        font-size: .7rem;
+    }
+}
