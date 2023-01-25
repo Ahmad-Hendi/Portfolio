@@ -13,17 +13,17 @@
   .header {
     text-align: center;
     padding: 32px;
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color: bisque; */
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 10%;
+    align-items: flex-end; */
+    margin-bottom: 5%;
   }
 
   
   .header h1{
-      font-size: 15rem;
+      font-size: 5rem;
       font-weight: 100;
       margin: 0;
   }
@@ -55,7 +55,7 @@ ul{
 	align-items: center;
 	height: 100%;
     padding: .1%;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
     
