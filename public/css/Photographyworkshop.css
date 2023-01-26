@@ -92,6 +92,7 @@ header{
 .WorkShop-info > .title > p{
     max-width: 70%; 
     margin: auto;
+    font-size: 1.7rem;
 }
 
 .examples {
@@ -283,6 +284,11 @@ font-size: 7rem;
 bottom: -10%;
 }
 
+
+.WorkShop-info > .title > p{
+    font-size: 1.4rem;
+    max-width: 90%;
+}
 /* new sectoion Inscription */
 
 

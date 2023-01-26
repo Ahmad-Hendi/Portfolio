@@ -214,7 +214,8 @@ h3 {
   margin: 10%;
 }
 .title-gallery h4{
-  color: red;
+  color: #e91e63;
+  text-decoration: underline;
 }
 
 .title-gallery p{

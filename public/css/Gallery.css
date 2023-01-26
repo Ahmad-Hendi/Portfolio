@@ -64,6 +64,12 @@ ul{
       text-align: center;
       margin: 13% 10%;
   }
+ .info > p{
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  font-size: 1.7rem;
+  }
 
 
   .row {
