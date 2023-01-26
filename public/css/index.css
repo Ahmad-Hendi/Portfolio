@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 body {
   background: #375543;
   height: 100vh;
-
+  font-family: 'Avenir Next LT Pro', sans-serif;
 }
 
 .navbar {
@@ -212,14 +214,20 @@ h3 {
 }
 .title-gallery{
   margin: 10%;
+  font-weight: 400;
+}
+.title-gallery h1{
+  font-weight: 400;
 }
 .title-gallery h4{
   color: #e91e63;
   text-decoration: underline;
+  font-weight: 400;
 }
 
 .title-gallery p{
   margin-top: 20%;
+  font-weight: 400;
 }
 
 
