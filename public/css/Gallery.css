@@ -8,16 +8,12 @@
   body {
     margin: 0;
     font-family: 'Avenir Next LT Pro', sans-serif;
+    background-color: #f1d38b;
   }
   
   .header {
     text-align: center;
     padding: 32px;
-    /* height: 100vh; */
-    /* background-color: bisque; */
-    /* display: flex;
-    justify-content: space-between;
-    align-items: flex-end; */
     margin-bottom: 5%;
   }
 
