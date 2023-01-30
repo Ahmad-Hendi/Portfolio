@@ -8,7 +8,7 @@
     margin: 0;
 }
 body{
-    background: #ececec;
+    background: #375543;
     font-family: 'Avenir Next LT Pro', sans-serif;
 }
 
@@ -83,16 +83,16 @@ header{
     text-align: center;
     /* background: blue; */
     grid-column-start: span 3;
-    /* display: flex; */
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin-bottom: 20%;
 }
 
 .WorkShop-info > .title > p{
     max-width: 70%; 
     margin: auto;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    color: #dcdcdc;
 }
 
 .examples {
@@ -102,6 +102,7 @@ header{
     grid-template-rows: 100% auto auto auto auto auto;
     padding-left: 10%;
     padding-right: 10%;
+    gap: 0.3rem;
     /* background: red; */
 }
 
@@ -115,10 +116,10 @@ header{
 
 
 .WorkShop-info .title h1 {
-    /* background-color: red; */
+    color: #f1d38b;
     padding-top: 10%;
     font-family: "Canopee";
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 100;
     
 }
@@ -138,8 +139,9 @@ header{
     font-size: 1.4rem;
     text-align: center;
     font-weight: 500;
+    color: #f1d38b;
 }
-.img-container::after {
+/* .img-container::after {
     display: block;
     content: "workshop";
     font-family: "Canopee";
@@ -148,8 +150,9 @@ header{
     font-size: 18rem;
     bottom: -20%;
     font-weight: 100;
+    color: #f1d38b;
 
-}
+} */
 
 
 #loaction-img{
@@ -172,11 +175,13 @@ header{
     font-size: 7rem;
     font-family: "Canopee";
     font-weight: 100;
+    color: #f1d38b;
 }
 .adressandtime > p{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
+    color: #dcdcdc;
 
 }
 
@@ -192,21 +197,20 @@ header{
 
 
 .Inscription > h3{
-   color: #ececec;
+   color: #f1d38b;
    position: absolute;
    left: 2%;
    top: 1%;
    max-width: 40%;
 }
 .Inscription > p{
-   color: #ececec;
+   color: #dcdcdc;
    position: absolute;
    left: 2%;
    top: 17%;
    max-width: 40%;
    padding: 0;
    margin: 0;
-   color: yellow;
    font-family: 'Avenir Next LT Pro', sans-serif;
    font-weight: 400;
 }
@@ -219,7 +223,7 @@ header{
    max-width: 40%;
    padding: 0;
    margin: 0;
-   color: yellow;
+   color: #f1d38b;
    font-family: 'Avenir Next LT Pro', sans-serif;
    font-weight: 300;
    justify-content: left;
@@ -228,10 +232,10 @@ header{
 }
 
 #question{
-    position: absolute;
-    left: 1%;
-    margin: 0;
-    padding: 0;
+    display: inline;
+    margin: 0px;
+    color: #f1d38b;
+    
 }
 
 
@@ -366,6 +370,11 @@ bottom: -10%;
 @media only screen and (max-width: 400px) {
     header {
         padding-top: 30%;
+    }
+    li {
+        list-style: none;
+        padding: 0px 0.5rem;
+        font-size: .7rem;
     }
 
     .img-container {
