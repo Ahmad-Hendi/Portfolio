@@ -35,7 +35,7 @@
     align-items: center;
     margin: 0.7rem auto;
     text-decoration: none;
-    color: black;
+    color: black; 
 }
 
    li {
@@ -61,6 +61,7 @@ ul{
       margin: 13% 10%;
   }
  .info > p{
+   color: #1a29ff;
   text-align: center;
   max-width: 80%;
   margin: auto;
@@ -91,9 +92,10 @@ ul{
   }
 
   .column > h3{
-    font-size: 2rem;
     font-family: "Canopee";
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
     margin-top: -5%;
   }
 .column > p {
