@@ -102,10 +102,14 @@ app.use('/products' ,require('./routes/products'));
 
 
 // Gallery start
-app.use('/RoyalPalaceOne' ,require('./routes/RoyalPalaceOne'));
-app.use('/TheBelgianMonarchy' ,require('./routes/TheBelgianMonarchy'));
-app.use('/AtomiumNewYear' ,require('./routes/AtomiumNewYear'));
-app.use('/AtomiumNewYear2019' ,require('./routes/AtomiumNewYear2019'));
+app.use('/DayOut' ,require('./routes/DayOut'));
+app.use('/TheRedMoon' ,require('./routes/TheRedMoon'));
+app.use('/LesMarolles' ,require('./routes/LesMarolles'));
+app.use('/TheMagicCircles' ,require('./routes/TheMagicCircles'));
+app.use('/BreakingTheDark' ,require('./routes/BreakingTheDark'));
+
+// All the art work starts
+app.use('/AnotherDimension' ,require('./routes/AnotherDimension'));
 // Gallery end
 
 
