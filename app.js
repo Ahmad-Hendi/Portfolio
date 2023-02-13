@@ -110,14 +110,23 @@ app.use('/BreakingTheDark' ,require('./routes/BreakingTheDark'));
 
 // All the art work starts
 app.use('/AnotherDimension' ,require('./routes/AnotherDimension'));
+app.use('/UnforeseenRendezvous' ,require('./routes/UnforeseenRendezvous'));
+app.use('/DeBrouckere' ,require('./routes/DeBrouckere'));
 // Gallery end
 
 
 // Download Gallery start
-app.use('/DownloadRoyalPalace' ,require('./routes/DownloadRoyalPalace'));
-app.use('/DownloadTheBelgianMonarchy' ,require('./routes/DownloadTheBelgianMonarchy'));
-app.use('/DownloadTheAtomsForPeace' ,require('./routes/DownloadTheAtomsForPeace'));
-app.use('/DownloadAtomium' ,require('./routes/DownloadAtomium'));
+app.use('/DownloadTheMagicCircles' ,require('./routes/DownloadTheMagicCircles'));
+app.use('/DownloadTheRedMoon' ,require('./routes/DownloadTheRedMoon'));
+app.use('/DownloadUnforeseenRendezvous' ,require('./routes/DownloadUnforeseenRendezvous'));
+app.use('/DownloadDayOut' ,require('./routes/DownloadDayOut'));
+app.use('/DownloadBreakingTheDark' ,require('./routes/DownloadBreakingTheDark'));
+app.use('/DownloadDeBrouckere' ,require('./routes/DownloadDeBrouckere'));
+
+
+app.use('/DownloadAnotherDimension' ,require('./routes/DownloadAnotherDimension'));
+
+
 
 
 
