@@ -141,7 +141,7 @@ app.use('/Photographyworkshop' ,require('./routes/Photographyworkshop'));
 
 // links stars
 
-app.use('/links', require('./routes/links'));s
+app.use('/links', require('./routes/links'));
 
 
 
