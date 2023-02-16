@@ -89,7 +89,7 @@ app.use('/presetDetailsNaturalTone' ,require('./routes/presetDetailsNaturalTone'
 // Presets End
 
 
-app.use('/myLinks' ,require('./routes/myLinks'));
+
 
 // Services start
 app.use('/services' ,require('./routes/services'));
@@ -137,6 +137,11 @@ app.use('/DownloadLesMarolles' ,require('./routes/DownloadLesMarolles'));
 // Photographyworkshop start
 app.use('/Photographyworkshop' ,require('./routes/Photographyworkshop'));
 
+
+
+// links stars
+
+app.use('/links', require('./routes/links'));s
 
 
 

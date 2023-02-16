@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Links</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/links.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  </head>
+
+  <body>
+    <div class="menu-open">Links</div>
+    <div class="nav-container">
+      <div class="menu-close">close</div>
+
+      <nav class="menu">
+        <div class="menu__item item-1">
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/Photography.jpg"
+          />
+          <a href="https://www.ahmadhendi.com/services" class="menu__item-link"
+            >Services</a
+          >
+        </div>
+        <div class="menu__item item-2">
+          <a href="https://www.ahmadhendi.com/gallery" class="menu__item-link"
+            >Artworks</a
+          >
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/ArtWorks.jpg"
+          />
+        </div>
+        <div class="menu__item item-3">
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/Workshop.jpg"
+          />
+          <a href="https://www.ahmadhendi.com/workshop" class="menu__item-link"
+            >Workshop</a
+          >
+        </div>
+        <div class="menu__item item-4">
+          <a href="https://www.ahmadhendi.com/presets" class="menu__item-link"
+            >Presets</a
+          >
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/presets.jpg"
+          />
+        </div>
+        <div class="menu__item item-5">
+          <img class="menu__item-img" src="../public/images/Links/TikTok.jpg" />
+          <a
+            href="https://www.tiktok.com/@ahmad_hendi_?is_from_webapp=1&sender_device=pc"
+            class="menu__item-link"
+            >TikTok</a
+          >
+        </div>
+        <div class="menu__item item-6">
+          <a
+            href="https://www.instagram.com/ahmad_hendi_"
+            class="menu__item-link"
+            >Instagram</a
+          >
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/Instagram.jpg"
+          />
+        </div>
+        <div class="menu__item item-7">
+          <a
+            href="https://www.youtube.com/@ahmad_hendi_/channels"
+            class="menu__item-link"
+            >YouTube</a
+          >
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/Youtube.jpg"
+          />
+        </div>
+        <div class="menu__item item-8">
+          <a
+            href="https://www.pinterest.com/ahmad_hendi_/"
+            class="menu__item-link"
+            >Pinterest</a
+          >
+          <img
+            class="menu__item-img"
+            src="../public/images/Links/Pinterest.jpg"
+          />
+        </div>
+      </nav>
+    </div>
+    <script>
+      var tl = new TimelineMax({ paused: true });
+
+      tl.to(".nav-container", 1, {
+        left: 0,
+        ease: Expo.easeInOut,
+      });
+
+      tl.staggerFrom(
+        ".menu > div",
+        0.8,
+        { y: 100, opacity: 0, ease: Expo.easeOut },
+        "0.1",
+        "-=0.4"
+      );
+
+      tl.reverse();
+      $(document).on("click", ".menu-open", function () {
+        tl.reversed(!tl.reversed());
+      });
+      $(document).on("click", ".menu-close", function () {
+        tl.reversed(!tl.reversed());
+      });
+
+      $(document).ready(function () {
+        $(".item-1").hover(
+          function () {
+            $(".nav-container").css("background-color", "#938089");
+          },
+          function () {
+            $(".nav-container").css("background", "#dfe8e0");
+          }
+        );
+
+        $(".item-2").hover(
+          function () {
+            $(".nav-container").css("background-color", "#b1b2b6");
+          },
+          function () {
+            $(".nav-container").css("background", "#dfe8e0");
+          }
+        );
+
+        $(".item-3").hover(
+          function () {
+            $(".nav-container").css("background-color", "#88a388");
+          },
+          function () {
+            $(".nav-container").css("background", "#dfe8e0");
+          }
+        );
+
+        $(".item-4").hover(
+          function () {
+            $(".nav-container").css("background-color", "#b1b2b6");
+          },
+          function () {
+            $(".nav-container").css("background", "#dfe8e0");
+          }
+        );
+
+        $(".item-5").hover(
+          function () {
+            $(".nav-container").css("background-color", "#484848");
+          },
+          function () {
+            $(".nav-container").css("background", "#484848");
+          }
+        );
+
+        $(".item-6").hover(
+          function () {
+            $(".nav-container").css("background-color", "#979781");
+          },
+          function () {
+            $(".nav-container").css("background", "#dfe8e0");
+          }
+        );
+
+        $(".item-7").hover(
+          function () {
+            $(".nav-container").css("background-color", "#f1d38b");
+          },
+          function () {
+            $(".nav-container").css("background", "#f1d38b");
+          }
+        );
+
+        $(".item-8").hover(
+          function () {
+            $(".nav-container").css("background-color", "#1a29ff");
+          },
+          function () {
+            $(".nav-container").css("background", "#1a29ff");
+          }
+        );
+      });
+    </script>
+  </body>
+</html>
