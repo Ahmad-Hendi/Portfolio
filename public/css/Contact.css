@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #fff;
+}
 
 html,
 body{
@@ -158,9 +161,7 @@ textarea#message{
         font-size: 20px;
     }
   
-    .social-media .item > span{
-        color: red;
-    }
+    
     input {
         font-size: 15px;
     }
