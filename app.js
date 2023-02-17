@@ -140,8 +140,15 @@ app.use('/Photographyworkshop' ,require('./routes/Photographyworkshop'));
 
 
 // links stars
-
 app.use('/links', require('./routes/links'));
+// links ends
+
+// contact starts
+app.use('/contact', require('./routes/contact'));
+// contact ends
+
+
+
 
 
 

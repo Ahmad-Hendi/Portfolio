@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+    width: 100%;
+    height: 100vh;
+    background: #375543;
+    color: #fff;
+    font-family: "Avenir next";
+}
+
+.marquee{
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 1.2em;
+}
+
+.marquee > span{
+    font-family: "Canopee";
+    font-weight: 100;
+    color: #f1d38b;
+    font-size: 8em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: -10%;
+    animation: marquee-animation 80s linear infinite;
+}
+
+@keyframes marquee-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.col {
+    width: 50%;
+    padding: 1em 3em;
+}
+
+.contact-section h3{
+    text-transform: uppercase;
+    color: #f1d38b;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Canopee";
+}
+
+
+.contact-us p{
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 0.8em;
+}
+
+.item{
+    padding: 4em 0 0 0;
+}
+
+.contact-info{
+    display: flex;
+}
+
+.address{
+    padding-left: 4em;
+}
+
+input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #f1d38b;
+    font-size: 24px;
+    padding: 0.4em;
+    width: 100%;
+    color: #f1d38b;
+    margin-bottom: 0.4em;
+    font-family: "avenir next";
+}
+
+.row{
+    display: flex;
+    margin: 2em 0 !important;
+}
+
+
+textarea#message{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #f1d38b;
+    font-size: 24px;
+    padding: 0.4em;
+    color: #f1d38b;
+    font-family: "avenir next";
+}
+
+.submit{
+    width: 100%;
+    justify-content: space-between;
+    opacity: .6;
+}
+
+
+.submit a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "";
+    font-size: 60px;
+    font-weight: 200;
+    text-decoration: uppercase;
+    opacity: .6;
+}
+.submit:hover{
+    color: #f1d38b;
+    opacity: 1;
+}
+.submit a:hover {
+   color: #f1d38b;
+   opacity: 1;
+}
+
+.send-icon{
+    font-size: 60px;
+}
+
+@media (min-width: 900px){
+    html,
+    body {
+        height: 100%;
+    }
+    .contact-section{
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media (max-width: 450px){
+    .marquee > span {
+        font-size: 5em;
+    }
+    .contact-us p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .submit a {
+        font-size: 20px;
+    }
+    .icon-inner .ionicon, svg {
+        display: block;
+        height: 10% !important;
+        width: 30% !important;
+    }
+    .social-media .item > span{
+        color: red;
+    }
+    input {
+        font-size: 15px;
+    }
+    textarea#message {
+        font-size: 15px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .address {
+        padding-left: 0em;
+    }
+}
+
+@media (max-width: 900px){
+   .col{
+    width: 100%;
+   }
+}
+
