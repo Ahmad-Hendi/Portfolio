@@ -144,7 +144,7 @@ app.use('/links', require('./routes/links'));
 // links ends
 
 // contact starts
-app.use('/contact', require('./routes/contact'));
+app.use('/links', require('./routes/links'));
 // contact ends
 
 

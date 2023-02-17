@@ -157,11 +157,7 @@ textarea#message{
     .submit a {
         font-size: 20px;
     }
-    .icon-inner .ionicon, svg {
-        display: block;
-        height: 10% !important;
-        width: 30% !important;
-    }
+  
     .social-media .item > span{
         color: red;
     }

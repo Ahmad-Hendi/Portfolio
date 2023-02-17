@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 
 
 router.get('/', (req, res) => {
-  res.render('contact.ejs')
+  res.render('Contact.ejs')
 })
 
           
