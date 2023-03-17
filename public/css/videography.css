@@ -19,6 +19,16 @@ video {
 
 
 /* Main CSS */
+.info > p {
+	width: 80%;
+	text-align: center;
+}
+#worktogether{
+	color: #f1d38b;
+	text-decoration: underline;
+}
+
+
 .grid-wrapper > div {
 	display: flex;
 	justify-content: center;
@@ -59,11 +69,15 @@ header{
 }
 a {
 	text-decoration: none;
-	color: aliceblue;
+	color: rgb(189, 189, 189);
+}
+a:hover {
+	color: #f1d38b;
 }
    li {
 	list-style: none;
 	padding: 0px 2rem;
+
 }
 
 
@@ -72,6 +86,7 @@ ul{
 	justify-content: center;
 	align-items: end;
 	height: 100%;
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -89,6 +104,10 @@ ul{
 	.info{
 		grid-column: span 3;
 	}
+	.info > p {
+		width: 100%;
+		font-size: 12px;
+	}
   }
 @media screen and (max-width: 600px) {
     .grid-wrapper > div {
@@ -104,12 +123,30 @@ ul{
 		grid-column: span 2	;
 	}
 	li {
-		padding: 0px .7rem;
+		padding: 0px .4rem;
 	}
 	ul{
 		align-items: center;
+		
 	}
 	.info > p {
 		font-size: 12px;
+		width: 100%;
+	}
+  }
+@media screen and (max-width: 400px) {
+	li {
+		padding: 0px .2rem;
+	}
+	ul{
+		align-items: center;
+		font-size: 10px;
+	}
+	.info > p {
+		font-size: 9px;
+		width: 100%;
+	}
+	body {
+		padding: 10px;
 	}
   }
