@@ -181,7 +181,7 @@ a{
 
 
 .gallery {
-  background: #f1d38b;
+  background: #ffffff;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
