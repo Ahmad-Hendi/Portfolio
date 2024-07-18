@@ -75,6 +75,7 @@ ul{
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 10%;
+    justify-content: center;
   }
   
   /* Create four equal columns that sits next to each other */
